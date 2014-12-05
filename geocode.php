@@ -4,25 +4,23 @@
     
     <title>Location Accumulator</title>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-    <script>
-function initialize() {
-  var myLatlng = new google.maps.LatLng(-25.363882,131.044922);
-  var mapOptions = {
-    zoom: 4,
-    center: myLatlng
-  }
-  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-
-  var marker = new google.maps.Marker({
-      position: myLatlng,
-      map: map,
-      title: 'Hello World!'
-  });
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);
-
-    </script>
+    <style>
+      html, body, #map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px
+      }
+      #panel {
+        position: absolute;
+        top: 5px;
+        left: 50%;
+        margin-left: -180px;
+        z-index: 5;
+        background-color: #fff;
+        padding: 5px;
+        border: 1px solid #999;
+      }
+    </style>
  
 </head>
 <body>
@@ -72,6 +70,41 @@ function geocode($address){
     $resp_add_json = file_get_contents($urlofaddress);
     $resp_add = json_decode($resp_add_json,true);
     
+    echo "
+        var map;
+        var markers = [];
+        
+        function initialize() {
+          var london = new google.maps.LatLng(37.7699298, -122.4469157);
+          var mapOptions = {
+            zoom: 12,
+            center: london,
+            mapTypeId: google.maps.MapTypeId.TERRAIN
+          };
+          map = new google.maps.Map(document.getElementById('map-canvas'),
+              mapOptions);
+        
+            setAllMap(map)
+        }
+        
+         // Add a marker to the map and push to the array.
+            function addMarker(location) {
+              var marker = new google.maps.Marker({
+                position: location,
+                map: map
+              });
+              markers.push(marker);
+            }
+            
+            // Sets the map on all markers in the array.
+            function setAllMap(map) {
+              for (var i = 0; i < markers.length; i++) {
+                markers[i].setMap(map);
+              }
+            }
+
+    "
+    
     
     echo "Nim was here $resp_add";
     echo "<table border=1><tr><td><b>name</b></td><td><b>address</b></td><td><b>coords</b></td></tr>";
@@ -103,11 +136,19 @@ function geocode($address){
                 $lati = $resp['results'][0]['geometry']['location']['lat'];
                 $longi = $resp['results'][0]['geometry']['location']['lng'];
                 $formatted_address = $resp['results'][0]['formatted_address'];
+                
+                echo "<script>
+                    var location = new google.maps.LatLng($lati,$longi);
+                    addMarker(location);
+                    </script>
+                    
+                "
             
                 echo "<tr><td>  $nameofpub </td> <td> $theadd </td><td> ($lati , $longi) </td> </tr>";   
             }
         } 
         echo "</table>";
+        
     }
 
     else{
@@ -115,6 +156,9 @@ function geocode($address){
     }
 }
 ?>
+<script>
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
  
 </body>
 </html>
