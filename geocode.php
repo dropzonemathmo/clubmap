@@ -58,7 +58,7 @@ $resp_add_json = file_get_contents($urlofaddress);
 $resp_add = json_decode($resp_add_json,true);
 
 
-echo "$resp_add";
+echo "Nim was here $resp_add";
 echo "<table border=1><tr><td><b>name</b></td><td><b>address</b></td><td><b>coords</b></td></tr>";
 
 if($resp_add['status']='OK'){
