@@ -14,43 +14,24 @@
     
     <?php
         function geocode() {
-            $urlofaddress = urlencode("clubdata.json");
-            $resp_add_json = file_get_contents($urlofaddress);
-            $resp_add = json_decode($resp_add_json,true);
-
-                for ($x = 0; $x <= 10; $x++) {
-
-                    $addofpub = $resp_add['results'][$x]['address'];
-                    $nameofpub = $resp_add['results'][$x]['name'];    
-                    $noreviews = $resp_add['results'][$x]['no_reviews'];
-    
-                    // url encode the address
-                    $theadd = $addofpub;
-                    $addofpub = urlencode($addofpub);
-     
-                    // google map geocode api url
-                    $url = "http://maps.google.com/maps/api/geocode/json?sensor=false&address={$addofpub}";
-       
-                     // get the json response
-                    $resp_json = file_get_contents($url);
-     
-                    // decode the json
-                    $resp = json_decode($resp_json, true);
-
-                    // response status will be 'OK', if able to geocode given address 
-                   if($resp['status']='OK'){
- 
-                       // get the important data
-                        $lati = $resp['results'][0]['geometry']['location']['lat'];
-                        $longi = $resp['results'][0]['geometry']['location']['lng'];
-                        $formatted_address = $resp['results'][0]['formatted_address'];
-                        
-                        if(gettype($longi) != "NULL"){
-                            echo "'$nameofpub','$noreviews','$lati','$longi',";  
-                        }
-                    }
+            $urlofaddress = urlencode("geocoordinates.json");
+            $resp_add_json = file_get_contents($urlofaddress);    
+            $resp_add =  json_decode($resp_add_json, true);
+            
+            //print_r($resp_add);
+            for ($x = 0; $x < 240; $x++) {
+                $addofpub = $resp_add['results'][$x]['address'];  
+                $nameofpub = $resp_add['results'][$x]['name'];    
+                $nofav = $resp_add['results'][$x]['mem_fav'];
+                $lati = $resp_add['results'][$x]['lat'];
+                $longi = $resp_add['results'][$x]['long'];
+                
+                if(gettype($longi) != "NULL"){
+                    echo "'$nameofpub','$nofav','$lati','$longi',";  
                 }
-    
+            
+            }
+            echo "0";
         } 
     ?>
     
@@ -60,19 +41,59 @@
         // The user can then click an option to hide, show or delete the markers.
         var map;
         var markers = [];
+        var MY_MAPTYPE_ID = 'custom_style';
 
         function initialize() {
+            
+            var styleArray = [
+              {
+                featureType: "all",
+                stylers: [
+                  { saturation: -80 }
+                ]
+              },{
+                featureType: "road.arterial",
+                elementType: "geometry",
+                stylers: [
+                  { hue: "#00ffee" },
+                  { saturation: 50 }
+                ]
+              },{
+                featureType: "poi.business",
+                elementType: "labels",
+                stylers: [
+                  { visibility: "off" }
+                ]
+              }
+            ];
+        
+        
             var london = new google.maps.LatLng(51.5238121,-0.0744264);
             var mapOptions = {
                 zoom: 20,
                 center: london,
-                mapTypeId: google.maps.MapTypeId.TERRAIN
+                mapTypeControlOptions: {
+                    mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
+                },
+                mapTypeId: MY_MAPTYPE_ID
             };
             map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
 
+            var styledMapOptions = {
+                name: 'Custom Style'
+            };
+            
+            var customMapType = new google.maps.StyledMapType(styleArray, styledMapOptions);
+
+            map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
+
             var geocoder = [<?php
-                geocode(); 
+                geocode();
             ?>];
+            
+            for(var i = 0; i < geocoder.length; i++){
+                //document.write(geocoder[i] + "<br>")
+            }
            
             for(var i = 0; i < geocoder.length; i = i + 4){
                 var pubLocation = new google.maps.LatLng(parseFloat(geocoder[i+2]),parseFloat(geocoder[i+3]));
@@ -86,14 +107,12 @@
       				fillOpacity: 0.35,
       				map: map,
       				center: pubLocation,
-      				radius: Math.sqrt(parseFloat(geocoder[i+1]))*50
+      				radius: Math.sqrt(parseFloat(geocoder[i+1]))*20
     			};
                 cityCircle = new google.maps.Circle(populationOptions);
                 
-                
             }
             
-
         }
         
         function getRandomColor() {
@@ -121,11 +140,11 @@
             map: map
           });
           
-          google.maps.event.addListener(marker, 'click', function() {
-            infowindow.open(map,marker);
-          });
+            google.maps.event.addListener(marker, 'click', function() {
+                infowindow.open(map,marker);
+            });
           
-          markers.push(marker);
+            markers.push(marker);
           
         }
 
