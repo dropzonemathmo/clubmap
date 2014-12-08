@@ -1,6 +1,6 @@
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 <?php
-    $urlofaddress = urlencode("clubsandbars.json");
+    $urlofaddress = urlencode("clubsnpubslocations.json");
     $resp_json = file_get_contents($urlofaddress);
     $resp = json_decode($resp_json,true);
             
