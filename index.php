@@ -13,60 +13,43 @@
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
     
     <?php
-        function latlgn() {
-            $urlofaddress = urlencode("data.json");
-            $resp_add_json = file_get_contents($urlofaddress);    
-            $resp_add =  json_decode($resp_add_json, true);
+    	$urlofaddress = urlencode("data.json");
+        $resp_add_json = file_get_contents($urlofaddress);    
+        $resp_add =  json_decode($resp_add_json, true);
+        $length = count($resp_add["result"]);
+    ?>
+    
+    <?php
+        function latlgn($index,&$resp_add) {
             
-            $length = count($resp_add["result"]);
-            
-            for ($x = 0; $x < $length; $x++) {
-                $lati = $resp_add['result'][$x]['lat'];
-                $longi = $resp_add['result'][$x]['lng'];
-                echo "{$lati},{$longi},";  
-
-            }
+            $lati = $resp_add['result'][$index]['lat'];
+            $longi = $resp_add['result'][$index]['lng'];
+            echo "{$lati},{$longi},";  
         } 
         
-        function rating() {
-            $urlofaddress = urlencode("data.json");
-            $resp_add_json = file_get_contents($urlofaddress);    
-            $resp_add =  json_decode($resp_add_json, true);
-            
+        function rating($index,&$resp_add) {
             $length = count($resp_add["result"]);
-            
-            for ($x = 0; $x < $length; $x++) {   
-                $rating = $resp_add['result'][$x]['rating'];
-                echo "{$rating},";              
-            }
+            $rating = $resp_add['result'][$index]['rating'];
+            echo "{$rating},";              
         } 
         
-        function names() {
-            $urlofaddress = urlencode("data.json");
-            $resp_add_json = file_get_contents($urlofaddress);    
-            $resp_add =  json_decode($resp_add_json, true);
-            
+        function names($index,&$resp_add) {
             $length = count($resp_add["result"]);
             
-            for ($x = 0; $x < $length; $x++) { 
-                $nameofpub = $resp_add['result'][$x]['name'];  
-                echo "\"{$nameofpub}\",";  
-            }
+            $nameofpub = $resp_add['result'][$index]['name'];  
+            echo "\"{$nameofpub}\",";  
         } 
 
-        function noratings() {
-            $urlofaddress = urlencode("data.json");
-            $resp_add_json = file_get_contents($urlofaddress);    
-            $resp_add =  json_decode($resp_add_json, true);
-            
-            $length = count($resp_add["result"]);
-            
-            for ($x = 0; $x < $length; $x++) { 
-                $noratings = $resp_add['result'][$x]['user_ratings_total'];  
-                echo "\"{$noratings}\",";  
-            }
+        function noratings($index,&$resp_add) {
+            $noratings = $resp_add['result'][$x]['user_ratings_total'];  
+            echo "\"{$noratings}\",";  
         } 
-
+		
+		function openingTimes($index,&$resp_add){
+            $openingTimes = $resp_add['result'][$x][''];
+		
+		}
+		
     ?>
 
     <script>
@@ -179,7 +162,7 @@
         }
         
         // Add a marker to the map and push to the array.
-        function addMarker(location,pubName) {
+        function addMarker(location,pubName,) {
         
           var infowindow = new google.maps.InfoWindow({
               content: pubName
