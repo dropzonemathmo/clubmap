@@ -13,7 +13,7 @@
         
         // google place details
         
-        $url = "https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJgaR1WkAOdkgRh32MzysCr2Y&key=AIzaSyDs6RzjlMJZMcca24BUKGnqb9SHX7z9OO4";
+        $url = "https://maps.googleapis.com/maps/api/place/details/json?placeid={$placeid}&key=AIzaSyDs6RzjlMJZMcca24BUKGnqb9SHX7z9OO4";
       
         // get the json response
         $json = file_get_contents($url);
