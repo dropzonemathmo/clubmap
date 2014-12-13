@@ -21,13 +21,13 @@
         // decode the json
         $json_array = json_decode($json, true);
         
-        $closing_times = json_decode($json.results.opening_hours);
+        $closing_times = json_decode($json.result.opening_hours);
         
         $result[$x] = array(
             "name" => $json_array["result"]["name"],
             "address" => $json_array["result"]["formatted_address"],
             "rating" => $json_array["result"]["rating"],
-            "user_ratings_total" => $json_array["results"]["user_ratings_total"],
+            "user_ratings_total" => $json_array["result"]["user_ratings_total"],
             "opening_hours" => $closing_times,
             "lat" => $json_array["result"]["geometry"]["location"]["lat"],
             "lng" => $json_array["result"]["geometry"]["location"]["lng"],
