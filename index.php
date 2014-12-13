@@ -14,47 +14,61 @@
     
     <?php
         function latlgn() {
-            $urlofaddress = urlencode("clubsnpubsratings.json");
+            $urlofaddress = urlencode("data.json");
             $resp_add_json = file_get_contents($urlofaddress);    
             $resp_add =  json_decode($resp_add_json, true);
             
-            $length = count($resp_add["results"]);
+            $length = count($resp_add["result"]);
             
             for ($x = 0; $x < $length; $x++) {
-                $lati = $resp_add['results'][$x]['lat'];
-                $longi = $resp_add['results'][$x]['lng'];
+                $lati = $resp_add['result'][$x]['lat'];
+                $longi = $resp_add['result'][$x]['lng'];
                 echo "{$lati},{$longi},";  
 
             }
         } 
         
         function rating() {
-            $urlofaddress = urlencode("clubsnpubsratings.json");
+            $urlofaddress = urlencode("data.json");
             $resp_add_json = file_get_contents($urlofaddress);    
             $resp_add =  json_decode($resp_add_json, true);
             
-            $length = count($resp_add["results"]);
+            $length = count($resp_add["result"]);
             
             for ($x = 0; $x < $length; $x++) {   
-                $rating = $resp_add['results'][$x]['rating'];
+                $rating = $resp_add['result'][$x]['rating'];
                 echo "{$rating},";              
             }
         } 
         
         function names() {
-            $urlofaddress = urlencode("clubsnpubsratings.json");
+            $urlofaddress = urlencode("data.json");
             $resp_add_json = file_get_contents($urlofaddress);    
             $resp_add =  json_decode($resp_add_json, true);
             
-            $length = count($resp_add["results"]);
+            $length = count($resp_add["result"]);
             
             for ($x = 0; $x < $length; $x++) { 
-                $nameofpub = $resp_add['results'][$x]['name'];  
+                $nameofpub = $resp_add['result'][$x]['name'];  
                 echo "\"{$nameofpub}\",";  
             }
         } 
+
+        function noratings() {
+            $urlofaddress = urlencode("data.json");
+            $resp_add_json = file_get_contents($urlofaddress);    
+            $resp_add =  json_decode($resp_add_json, true);
+            
+            $length = count($resp_add["result"]);
+            
+            for ($x = 0; $x < $length; $x++) { 
+                $noratings = $resp_add['result'][$x]['user_ratings_total'];  
+                echo "\"{$noratings}\",";  
+            }
+        } 
+
     ?>
-    
+
     <script>
         // In the following example, markers appear when the user clicks on the map.
         // The markers are stored in an array.
@@ -130,6 +144,10 @@
             var ratings = [<?php
                 rating();
             ?>];
+
+            var noratings = [<?php
+                noratings();
+            ?>];
            
             for(var i = 0; i < names.length; i++){
                 var pubLocation = new google.maps.LatLng(parseFloat(latlgn[2*i]),parseFloat(latlgn[2*i+1]));
@@ -143,7 +161,7 @@
       				fillOpacity: 0.35,
       				map: map,
       				center: pubLocation,
-      				radius: Math.pow(2,parseFloat(ratings[i])*1.6)
+      				radius: Math.pow(2,parseFloat(ratings[i]))*Math.log(noratings[i])
     			};
                 cityCircle = new google.maps.Circle(populationOptions);
                 
