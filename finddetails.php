@@ -7,7 +7,7 @@
     $length = count($resp['results']);
     $result = array();
                 
-    for ($x = 0; $x < 1; $x++) {
+    for ($x = 0; $x < $length; $x++) {
                 
         $placeid = $resp['results'][$x]['place_id'];
         
