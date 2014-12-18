@@ -1,0 +1,478 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "formatted_address" : "1 Dover Street, London W1S 4LD, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.507706,
+               "lng" : -0.141319
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "35c3229f6a7f594873211b096dfc6a942fdf09e2",
+         "name" : "Mahiki",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 533,
+               "html_attributions" : [],
+               "photo_reference" : "CnRnAAAAzieplVyVVyN2i-Rcn6jdEXiDaHez1lcEQ9atiVZMvgyUFKvzm9VQLnadn-I0Bn--fwc2oBbZOD8f-AVfomAekHEKhu4nUrSvC3-DoWUtoeKCt1sdkXcRRhLFlahX4XBRHXgWwLjGJ3Uq83EQpCH10BIQSRneVYwSKwVKi1Xy_4XhnBoU_fbMXSy5jh72fMznm6lsOSf-CoE",
+               "width" : 800
+            }
+         ],
+         "place_id" : "ChIJW6Tk99UEdkgRnKPt55v7t4I",
+         "price_level" : 2,
+         "rating" : 3.4,
+         "reference" : "CnRoAAAAhRT6a3ZpgnxWF8aLxxq3Wn6tWGSsGk-k2W7jRffYWo50hz_2mQWZV2YeP_loWefPWlLDc8UFY8KaXl781r-BWpzP58t40OFXB8ZbrmP0heHUTY22g6kXvCVq-vRrXbRcAlpk0C-uPL7xGabSPloTWxIQ6tszvnezcglEp_7T3sR5ZRoUxr1Xe1Q0ErGt9ep77grxs3qc7ZA",
+         "types" : [ "night_club", "bar", "establishment" ]
+      },
+      {
+         "formatted_address" : "107 Pall Mall, London SW1Y 5ER, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.50674,
+               "lng" : -0.132748
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "1638baa8bda4f8a772f8be7c588d6737904f7092",
+         "name" : "The Athenaeum",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJ-5Po_NAEdkgRwKve05fsTS0",
+         "rating" : 3.9,
+         "reference" : "CnRuAAAALDbCjEnwHA0w5CmoSVTtQAIopxp47Sed-OPstB_9BXSFU3b_x9EZ8Ma9AJNFZUTEgn7biWAgwk-gXixPgYLxnh9jcmN7ECbEx0nk4mfuorXrO8pHg3NeQXiZOmnOwLyUNde-Z97FJF91X5xg9RbHIBIQn16awhWaIFn-HRrb6AZjRxoUwlDabYyIL5Um7y0qR9cL96Wsoe8",
+         "types" : [ "establishment" ]
+      },
+      {
+         "formatted_address" : "60 Knightsbridge, London SW1X 7LF, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.502311,
+               "lng" : -0.158829
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "ddcc635e54be4317863d62a296772883e9cc9a80",
+         "name" : "Royal Thames Yacht Club",
+         "photos" : [
+            {
+               "height" : 560,
+               "html_attributions" : [],
+               "photo_reference" : "CnRnAAAAPPwISpOnxR56YrC-BTb5KSuFN2V9m6dgb9OHmQSNSIDPc1FuhK7sCUBqjyl9d-7ijcVLdmKM8Wp38x_IYGs6Vqb1xUgy4abODzqYAf8yMo2GEF0-ACwqnyJzU0a_MeuSUWtk4aKEZKgLyg0H1wSh2hIQ9hOocTkJp9QMCdoZ7Ki6ZhoULapoaQXya0b0F8fjC73Xs6U26z8",
+               "width" : 747
+            }
+         ],
+         "place_id" : "ChIJcw0NhjkFdkgRL0Oqa7toaqw",
+         "reference" : "CoQBeQAAAJU4_1828nkjk50QHpZuYMvAckAdPV3ZYEupMN_EF8GnlI7K8BvUb2FaSy60XudHWqSjx-iATm3-fT89wroO1ceauCo1EdcQCszQqrnpHMnXGtG2zZMikmXOjCJdgIJFSstMG3i3eAJcNSnyW4_CUuPcKLUtCFk1UyKCbtiVfSicEhAM1AFou_q2J4IAAJRJ_rq5GhRa_5L5zxAwNo8tCFehZvyGwcD72w",
+         "types" : [ "establishment" ]
+      },
+      {
+         "formatted_address" : "9 West Street, London WC2H 9NE, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.512884,
+               "lng" : -0.128024
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "f59246377bcd79777d7d014aa675d6e5b36a2bc1",
+         "name" : "The Club at The Ivy",
+         "place_id" : "ChIJL8k8cs0EdkgR8IwP1Sdr47c",
+         "rating" : 4.3,
+         "reference" : "CoQBdQAAABIcZ9znDWxjQ0cn4SETq69U8DtPX2eHsx_KLVglF3a-h0J9DfWlJm01vC9eB-fJND4jVT1A-pExrs_OnLS5ShID_2Ri92w2ibDmHqw2U9LcEl1ssFck1POUT3DXYRcndSUGpLUFagI-NBB5v2BK64z9Urs_dOtgIvWveiwOFGSyEhBjSgY5HW2qREtEjlvrVUeNGhQHgnLqD39qVwouVQ2IFeCxRg_H5Q",
+         "types" : [ "night_club", "establishment" ]
+      },
+      {
+         "formatted_address" : "69 Brook Street, London W1K 4ER, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.512323,
+               "lng" : -0.149133
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "20be2f2a3d8f3e726063780abdca7f1d0be464b2",
+         "name" : "Savile Club",
+         "photos" : [
+            {
+               "height" : 814,
+               "html_attributions" : [
+                  "\u003ca href=\"https://plus.google.com/114804726245478067037\"\u003eWilliam Stockbridge\u003c/a\u003e"
+               ],
+               "photo_reference" : "CnRoAAAAcYadhNBmEEM2i_e9bUI-c18eglUaul6WXsETedSsCwSwjjg5CJmT9iaDO9hrh-KuFrqEkFft0WbIlA81yHOb08rCGJ1VVbjUasBYxGc5xY6yfyZ4LvAc74k-M133zEwJ4QmEmLnKAbfDX1iDBJtvshIQ8230ItuG-kIQWbwV_mEg9hoUp41DWWTg-utMRGbbWAeZWu3WyLo",
+               "width" : 1476
+            }
+         ],
+         "place_id" : "ChIJMZ00-CwFdkgR3Ekoax_b3FU",
+         "reference" : "CnRsAAAAzLproxHEFlmZlE0pt2IwOus7HgLLbOYvpLMqc0Wtt_dgBi5-ix1wr1HBW__6EFeQ5KfgW7s7_M7Atgkx1wrjGzSY756hUdLhhe2oPaYumKKCHzDmHBs11T-n7XwLLjZibSjpGBzrFveXKeZMJSynVBIQxBsgGXDJJIRg83-C2xZZGxoUwi5cUNMGLd_Uxomh8snqX93HGT8",
+         "types" : [ "establishment" ]
+      },
+      {
+         "formatted_address" : "Orange Yard, Manette Street, London W1D 4JB, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.515086,
+               "lng" : -0.130537
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "58c59675ac8e1c4e8df632bf51855fd413abc2d6",
+         "name" : "The Borderline",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1296,
+               "html_attributions" : [
+                  "\u003ca href=\"https://plus.google.com/116239350147645910748\"\u003eCristina Stancu\u003c/a\u003e"
+               ],
+               "photo_reference" : "CnRoAAAAdNOIXVd0aGdQj5c6UkLLtSq8ZkPZZbAW2jFK9NH8hzny1iIrCxnyRH800X8l_veYwqpsm3RvqFF3-k6uNWeS1ACwum6IoW8ipP2bySadHV8Amy9e2aPHR2r1yIoc4TE_2k3zucoSrS0Nw3NHKZcz6xIQCfhlLJR2aiPwNWLcBpomIBoU1h2HWHs-Vi_6TG_JAw_T_Fhb1Ag",
+               "width" : 972
+            }
+         ],
+         "place_id" : "ChIJM625tNIEdkgRK_6iESQxZ2Y",
+         "price_level" : 2,
+         "rating" : 4.1,
+         "reference" : "CnRvAAAAe7sRFvlX-AJxmG4ydO37tbA3uVRByen1LImcSOsexG2RAiRguvrXWrTL0kv7bRVYfG1Sah4gL6lQa6YyL1ERvDtZmLlnr_HdDymQuiKFxEKJARNQHntlga8dTMlco1cMZm16d4Fe39wIBvtTu89n_hIQg9gpKlCB9tXEWW3AlsZSkxoUXBc1L4E-o0zCrY1GYVEDuCJoXuk",
+         "types" : [ "night_club", "establishment" ]
+      },
+      {
+         "formatted_address" : "3 Rathbone Place, London W1T 1HJ, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.516652,
+               "lng" : -0.133093
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "2d7e3daf2b443316a7581d605988b8a2498bdf5b",
+         "name" : "The Roxy",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 300,
+               "html_attributions" : [],
+               "photo_reference" : "CnRnAAAAkby_vwEJBdaooB-cZU7OyaeRQ_ki7a2nvcm3W0g7Q1MBIiO-EabtrqpI3dvoNomVLPK74I_sLyCTEUx86f_HY9qUejgNdJzF5YNg4rDGCeOG1Qt7O7mJaHRjvgbp_pfBt08NNataPl6E9yuBJlVx5BIQPQZmXlPCX3lytZk0h1bL-RoUzBqR0vsfu8od0gXG8HRrf7WNpTI",
+               "width" : 300
+            }
+         ],
+         "place_id" : "ChIJKxXG7iwbdkgRWKtXHkNZnqE",
+         "price_level" : 2,
+         "rating" : 3.2,
+         "reference" : "CnRqAAAALkFX7PKXP7seGPKzNJ_dQ1d87th0vZ80qASD7d4Yfn75iE_fjo-U5G7RVbfmlyvigiduNIH8Xmt_uu5IVp9CulMi2aRKDTAOv2IDXTjFe5AR41xUTCUqUC1bbEFYI6bFVKe8nwy9Prd0ItAwGJWL5hIQ5yWjgM5X4WB09PzeJ-p7ihoUAVoZUi65Zc8RGRd2jvM-0IewtWA",
+         "types" : [ "night_club", "establishment" ]
+      },
+      {
+         "formatted_address" : "40 Jermyn Street, London, St. James's SW1Y 6DN, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.50825,
+               "lng" : -0.137618
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "45e0cefef3a172ec5d01a0c4089d12795a0a1ca2",
+         "name" : "Tramp",
+         "place_id" : "ChIJfUFi89YEdkgRBU8YNJbz_3o",
+         "rating" : 4.3,
+         "reference" : "CnRmAAAAARvNi6s3FQa1pFqxTtThjOEccG7iNnTOLrcjy5noDRnH0Jc6b-vQ0qPJtz3vO4f8-qRCNN9BqBxlamw7vKH0Ro3HMpS5N7BYc8ZlVTjHylgAi9yK5mbSPjoXplvT-h9px0IyVRavdt6p7xZdUqOH2xIQtSKU9i_UPLjk6TbrqCrIURoUJbiEgKAuFMf7dvMvAmxkLUxbmxg",
+         "types" : [ "night_club", "restaurant", "food", "establishment" ]
+      },
+      {
+         "formatted_address" : "36 Pall Mall, London SW1Y, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.506334,
+               "lng" : -0.13601
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "220e7b662655be820d3a704d95ccaaccbae26f0a",
+         "name" : "Army & Navy Club",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 223,
+               "html_attributions" : [],
+               "photo_reference" : "CnRnAAAAfSrMP33GishAT5NrgD3_-CdMN3HEVIt5zDhGUv5_fEkWSUvwJX84OFrU-iHsF4xpL2lw8o5tkLTKuT04VM8amQH7cqTRMe0PJSK3dWl5mxVoxZVPre9NMx81hAOrh4iZuqqhGkhxGXprUx5DgzQ-WhIQiA2Uq9c7cD2PXmPkmgxNrhoUmbT8_14mvz5zI_BjMlNv_fHyq8U",
+               "width" : 400
+            }
+         ],
+         "place_id" : "ChIJBTA7O9cEdkgRpM3aqH3ilO0",
+         "reference" : "CoQBcgAAAKxJiuJxcUmAsC3kZ-zcPKC5dqAL6MJ-pndYUVsPzkXTZ1ZGScksC28Fh3PJuJtZbEkpY9seTSn6MbIxVxBH5kcnE9ao-_Y1P9_83c-21kukTEfanQslWf0gi0ELWOe4vUa3KaLeQ2Je6ARKkxFudIp8h3UTJtSTdrr3E4NbkOuVEhAvmueDPyOlwqRq5yjrmeoIGhSYLo0bXPRtvMNb2b9W3PRv6DAaZg",
+         "types" : [ "restaurant", "food", "establishment" ]
+      },
+      {
+         "formatted_address" : "55 Gracechurch Street, London EC3V 0EE, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.511357,
+               "lng" : -0.085049
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/barber-71.png",
+         "id" : "3b9ea10345dc704a11c3e52cf377475216fe880a",
+         "name" : "Fitness First Gracechurch Street",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 500,
+               "html_attributions" : [],
+               "photo_reference" : "CnRnAAAAA9KYXw3qLotErNGyIHmJ4NxGA2hMgD5lJl28xnF3kExOPigIvrMKW3KBkC204hAdBiBzr2oydugMwt2MiHHG1Vg3ruXPYqu9EarYo6KOWiy2acIsa_XtPDKLfG7WjDLpMWUa8lIDnitjcs7VK6FP_hIQlAJCXIIkCyLkiwbkLvqD-BoU7WIl6CU_0o7eZ8w5a8zjsgtvnhU",
+               "width" : 500
+            }
+         ],
+         "place_id" : "ChIJCUKrtlMDdkgRFaequu2WHmA",
+         "rating" : 3,
+         "reference" : "CpQBgQAAAM_YV8OltRzycpfXjKnGdxPhCrLJl69m4VppN72gk02ewS5t2JiWpiYrpTK2d3-Ejt0e8dvIIuMexxmpiR4JUA14YH7IPlOC2i9kE0pN62i5bCBZ3Yzax3Mr1SYycd-8zosYLXHjK14ypak7cxIYaj4FWFT3t4woTc98DAUr2E_UShCRmaC8tLOA4vwqVi1r6xIQzizxWIil5Fd_u4Udv-gGVRoU0YY9O19lgU_9ZGqvmOplp5G3m-s",
+         "types" : [ "beauty_salon", "gym", "health", "spa", "establishment" ]
+      },
+      {
+         "formatted_address" : "Stratford House, 11 Stratford Place, London W1C 1ES, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.51538,
+               "lng" : -0.14951
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "5a7fc8a0efeedce685faec4172829dcda7354a6b",
+         "name" : "Oriental Club",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJwSBSKNMadkgR1P5PdDpbcfA",
+         "rating" : 4.7,
+         "reference" : "CnRvAAAAe_vhuIccMOawZQ1vZ7BhjvjcGyTeIsbL5RxH8RrWxz6IeFk9oES9def6UYNhbTtGx8KV7IRLxKuU1iApQCP3ymJVsEjvlOEw-sHYXc47hIh-BQHia0N62gAIfhW2l9sxk55RmbadhngatPUB1_riNhIQvRBm3GTU693jxDdE9i3kiBoU7Iy1_tokbvrBulXtAArDmaDeN-U",
+         "types" : [ "bar", "establishment" ]
+      },
+      {
+         "formatted_address" : "71-77 Pall Mall, London SW1Y 5HD, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.505452,
+               "lng" : -0.136515
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "ad8c816ad6a56a1c4714bca3b71d2048edcaea9c",
+         "name" : "Oxford and Cambridge Club",
+         "photos" : [
+            {
+               "height" : 1024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://plus.google.com/100811926915679245476\"\u003eTóný Diliegros\u003c/a\u003e"
+               ],
+               "photo_reference" : "CnRoAAAAxuEn5IIONtKeR7D3GjaO7bAbxoqzt8zYrAzREMdBCsS1lHdU6AGY8jsDPqf59O0drDPlDpTORxg3QdNNaSLw3G-ipaZyGh0LsTYdEiinuMfnkaaE0Sd2ofl7Ui22nfIByKxkRz2LW1cMw_7U_iZ-fxIQBBY5kKwWmSU8GX_0xChaaxoUJtoxKypOm9i8BbOVI01KNY_EFCQ",
+               "width" : 768
+            }
+         ],
+         "place_id" : "ChIJL0oIatcEdkgRGYvE5I0Ceso",
+         "rating" : 4.3,
+         "reference" : "CoQBewAAAJpjCTzO7mR4Qm-H_Sr8T1TzUDI_chwVQlSI_61kOGS022xoMZ-A1uuGRrTllZJ6GqLElLaV5kjQ1gdviWz00trGFasnJw2YrCGAFKbxxAAJt52qLoosyz87Zz0P-ibk7RtRNdi85_JfEYfmweClyZcCf8YZXc5na5tRq0rKDryPEhBjtlfj4awmMxr5UyyePl30GhQcYJKsoYxBFVselXc6_ieGtO3AUg",
+         "types" : [ "establishment" ]
+      },
+      {
+         "formatted_address" : "Whitehall Place, London SW1A 2HE, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.506242,
+               "lng" : -0.124218
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "3985a152322268b5091d0bb10ea7cc402e40dcc0",
+         "name" : "National Liberal Club",
+         "place_id" : "ChIJnwLXNs8EdkgRhVuMjtlaOpE",
+         "rating" : 4.3,
+         "reference" : "CoQBdwAAAO0GK-7MhNjQBRYq3MmbR0g9VMgPMBHcwDKDrfr5Z2ZkGsktgf2ApgvK7hwcZSyu0v6tyRBJHmGN0pqH49pPMYiw8dMXc9pTTn1y6OrIdgVs_nMy4CI0dNUikB6qLH_NLROfVJ_EfuxntCDR3sQdCoEixmgYr0BKoh5rRulU270gEhCflFIEJ2KvrvoA28tufjhYGhSCrhAFsiWD_gJi-3U9K0Y6UbnaWQ",
+         "types" : [ "night_club", "establishment" ]
+      },
+      {
+         "formatted_address" : "Loftus Road Stadium, South Africa Road, London W12 7PJ, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.509622,
+               "lng" : -0.232914
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "600809176f3d39a06962993ca728a46689dc59d9",
+         "name" : "Queen's Park Rangers Football Club",
+         "photos" : [
+            {
+               "height" : 1224,
+               "html_attributions" : [ "From a Google User" ],
+               "photo_reference" : "CqQBmQAAANwJbVDRnuClpHPr_5ZTI_vZmA-r7u6hfgkKv_yBrmPElC3T0T0CNTKI9zEm7dPieFhwBIWzCefGalOcPid1GXFp46bmII_HsTnkqrdqSu43ALH3rdOcTYFbWzUgKxeHA-1hTvWH9-clq_pioNXGVntHoG-GX-MSxjnQqTDouL8tMskz3HPG5YqESuQTdqltwXHQ-ActD5uLTQOvnT007rkSEPelpfNSX5kvKbjGCuALeOwaFDyqE8WLmrwgWHd8aYcyv_0Mm__1",
+               "width" : 1632
+            }
+         ],
+         "place_id" : "ChIJqTg3gNMPdkgRQkkixzZU8Tk",
+         "rating" : 4.3,
+         "reference" : "CpQBgwAAABjV9cbUi6_0O_bLMTs8WQ7m_4jvKjpFOoq3-ffnOagjKRxzYZm3b8z-_29M-yxB0PB2MDojsPLWeQD3ZCk0RGh174aNd2dfv7L2WCGtzb6flUaXOmmkmms_SEDy8vnl9s8i3DWqJ__6ERGNIys8wFbBzCNnOAvNK7sPtTMrVnRSBGSANbXN2PSYx6gqNUsTGRIQB4La8wTJl0WAUhpVfnMFghoU71Ss-WqPo6bTRSMcLfo-8YS265M",
+         "types" : [ "establishment" ]
+      },
+      {
+         "formatted_address" : "13-15 Great Scotland Yard, London SW1A 2HJ, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.506526,
+               "lng" : -0.125614
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "ba57ebb38cae2d0979658469f8d32bd57027e486",
+         "name" : "Civil Service Club",
+         "place_id" : "ChIJQ90aBc8EdkgRe2j3WhdTPjA",
+         "reference" : "CoQBcwAAACaLc4tpjrXoJ1uyjK4Kgs6QV3DwzI9khav8FjUxinIqv_ZeUdddPAnvt9tP84Id9x3Jh3BTUKrbWKTz3c7zc4hmNFG2XEWiUKBgkYf-qzVfM1ZG8jTU6Rf_X4BI1NbDV9xvChyIfJNTfpmqx0vqt1gvSgldcidJ5C8JnQO6mapBEhA58MzpMtFlLmHVJqOC1tZHGhS1xGKHnsWI0RnYFG5YxoeBg6lgAQ",
+         "types" : [ "establishment" ]
+      },
+      {
+         "formatted_address" : "14 Old Park Lane, London W1K 1ND, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.504662,
+               "lng" : -0.149412
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "55c9a49104aca7cd255c59888925fae8993318ea",
+         "name" : "Playboy Club London",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 848,
+               "html_attributions" : [],
+               "photo_reference" : "CnRnAAAAkdhaa5RQurBtiulI7Li6MX__pY2sLzBCGowGImpd-v3kCt2-NfH9KrX8pR3fRKpt96fNOJS2nz13Y0EXRc0rgSjaBd9psXFDQ--O4dPB94KwMPFa3sHs7_jtvrtj12vwAFPO5GhNeZfwDyKSpFUGZBIQzHqIAt-R1cW3mTv9eAz67BoUGzLl3zqsrU-OKDTp7VfyZeA1zHI",
+               "width" : 1280
+            }
+         ],
+         "place_id" : "ChIJK62piCUFdkgR9syD0Yg7gy4",
+         "rating" : 4.1,
+         "reference" : "CoQBdAAAALDsdO97Bk6IEiiqsB8napn_YOj9klGIDbIKCEYk_bkw23woeprCgn_EBUIyBKhh5EtynsvF3MJG9Bcxus29ahIsVFsXdbUsqgh6Ck7nlDhJ7AFE6ZoaAkjGVaReNqE-ox1xAOthkBEM1umtq0k9twY8lW6Kqm76S80-lIEq-3gWEhDXVIfWzCTCUoQcitl2Iy8oGhRl6nkpOvTwcND53FLlDbzGu_ZpeQ",
+         "types" : [ "bar", "restaurant", "food", "establishment" ]
+      },
+      {
+         "formatted_address" : "1 Aldwych, London WC2B 4BZ, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.511904,
+               "lng" : -0.119052
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "f171c4ba592fed2614ed1e1d1de41fac9c725fac",
+         "name" : "One Aldwych Hotel",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 665,
+               "html_attributions" : [],
+               "photo_reference" : "CnRnAAAAgZK32H4e3Rma8coaz8SJCJnT_vBjYfxjB_tWI2OizB9BkCkkI1nJz_HSiAvZU96rjgWuQ6CIR81-Q4RG-2dUbQFm2H-EpuJkWEIT_5WjvrtysF5t16wtWHhn-Z89VIyTV4mHqnE09I5aHpXcik9fQRIQyRGDf3QqNxJi9R3RdZxC5RoUqYJB8ENsQ2iw9I2oCqxSv_hvcHU",
+               "width" : 707
+            }
+         ],
+         "place_id" : "ChIJq5XIW8oEdkgRqmg5RAC_ih8",
+         "rating" : 4.5,
+         "reference" : "CoQBcgAAAERvfZRelYYtQHsCw2nCwIjVws9RdrSZyrOph0mux_JqvJH9eGxDRbnWzn-xxy_uJrO9aSaGAw5dLOeFOzKJL-bH7YUQgqpUQbLr_GHzDNmi5jCmHdNaZs_GSIWukOqLD5ov6_pA7umkUAmkvme6EdItK_U5YJboRJ5VnJZvMiU4EhCZUV4An4juzJ6wwrccoYZYGhQPb9iTTKEJFs61shawLEhtFeJopg",
+         "types" : [ "bar", "restaurant", "lodging", "food", "spa", "establishment" ]
+      },
+      {
+         "formatted_address" : "21 Albemarle Street, London W1S 4BS, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.509827,
+               "lng" : -0.142571
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "9d9fe3525a31dacc2fa344fd24944d573b3d5a36",
+         "name" : "The Royal Institution of Great Britain",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 853,
+               "html_attributions" : [],
+               "photo_reference" : "CnRnAAAAXw47KGWZ02mlnET9ggZO-7fcGsdk54oBK_aybwlYOVSxonhceY063tUU4eZIkLRBZhTLKBE_c7VWSElkRSFO4SyCxUaudQY9_U_H5SK_ZxkCbVJT_6FnK4ThKfYMAfQZB8s9cmZVb61Vah_dO7U4hRIQosoGWGUjWOyHA01QjPNQ3xoUeWbt9AQAP-yXuvwppz_Y_hZlIUI",
+               "width" : 1280
+            }
+         ],
+         "place_id" : "ChIJYywfISoFdkgRDOqFl48w_0c",
+         "rating" : 4.5,
+         "reference" : "CpQBhwAAAKEOxhyiUXADbi2QTjyrlVMPAgqbmjaWFOgESocHerF2ZAC9bB_wRdEENMJtNtk16d-kXMCj0BBrXf7AT3dlEdFqqm1LjWgjaxaCiXS-mZBbZUlO6N6RA4Y4wiRp2gtVlgzFqGmh5i1bkl6o2P8pagm6xrICq5zB8ArHJAcznET7ri1dr4QTQbM6rmHSuUUuaRIQrpfbp7XjeHS3dlYmwwKCEhoUKDioHsBgqnq4pFXjgAIuTlNXD3s",
+         "types" : [ "museum", "establishment" ]
+      },
+      {
+         "formatted_address" : "12-16 Artillery Lane, London E1 7LS, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.518314,
+               "lng" : -0.078779
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "19dd2104936700689d432cee4a4b96d69fb88816",
+         "name" : "The Breakfast Club",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1600,
+               "html_attributions" : [],
+               "photo_reference" : "CnRnAAAA7Ty72eHE2dU3DEGlPkmHIZoOjlt8nF9baiNYCzXoztqc2EnJVbCfAYoF9IjsCKuWwVOAVWoT1nboK79mifazua3sR_GK2plB2iqEtmQ19gm57vwCMq4TG2Ia_QgmLoJ8BW2nVWftGdufy78Hy_T31BIQet3z1QeCGzM6gcg8yKaj3xoUFcLkLa-YJJ4jStVBQpEa0gFPMTU",
+               "width" : 2844
+            }
+         ],
+         "place_id" : "ChIJ80yBvbMcdkgRgu3otots7II",
+         "rating" : 4.2,
+         "reference" : "CoQBdAAAAPhkz1cvx-_K5zLlwazLfn_66EJ-iwJRnIrAqH1w-FwAgE6U766QM9H2NWSYxBXs0nUlSZC2hnExKY8IUmjlJ-V5kLciQK2Zh9exDhsQAnfnxTcW7pfgs-8bLMX18ydlPnc0DyBjzN3HFQvH8az5xa4gV2vbICNSM7RCpYcEJAsREhAVWKV9fCi8wxzRNa9nYrUTGhS0-0KGaTBCyke0IcE_4n_iormGmw",
+         "types" : [ "bar", "restaurant", "food", "establishment" ]
+      },
+      {
+         "formatted_address" : "55 Charlotte Road, London EC2A 3QF, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.525752,
+               "lng" : -0.081021
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "eefb87992dd8fdb856f42da4266e202d11a9bdb3",
+         "name" : "The Alpine Club",
+         "place_id" : "ChIJaxCXmLocdkgRsg93YdtgxR8",
+         "reference" : "CnRwAAAANlwOyBDmnb9m8Xj5kAZaqUN0QAWDLlLbitR7W3c47_obgkN1a1dPPOVKwh5j9021IMJ1DaKIMjn0k2LIHpy5nUjfq0qIQweFp0-VjpQvaMPudjjIRQ25kp9bJCsZT5KrwDhg81d-PDUB60TyVThjUBIQrqhJ3-uT6ACH-Q9W-HWfsRoUqB79b6tW17OUnuiGdJZxnIJyJQE",
+         "types" : [ "night_club", "library", "establishment" ]
+      }
+   ],
+   "status" : "OK"
+}
