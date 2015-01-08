@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title>Nearby Search</title>
+</head>
+<body>
+	<h1>Clubmap Google Nearby Search</h1>
+
+<form action="place_id.php" method="post">
+
+placeid: <input type="text" name="placeid"><br>
+GoogAPIKey: <input type="text" name="GoogAPIKey"><br>
+
+<input type="submit">
+</form>
+
+</body>
+</html>
