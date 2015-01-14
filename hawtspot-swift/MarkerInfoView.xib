@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="PuU-17-JZ8" customClass="MarkerInfoView" customModule="hawtspot_swift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="59" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6ak-ei-m94">
+                    <rect key="frame" x="270" y="268" width="59" height="64"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ooq-KG-0Lf">
+                    <rect key="frame" x="21" y="24" width="16" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="864-Bn-R4A"/>
+                        <constraint firstAttribute="width" constant="16" id="sDU-Q4-gMZ"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.25" translatesAutoresizingMaskIntoConstraints="NO" id="ksz-FP-fdQ">
+                    <rect key="frame" x="0.0" y="0.0" width="59" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rating" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.25" translatesAutoresizingMaskIntoConstraints="NO" id="VVx-dV-aTn">
+                    <rect key="frame" x="0.0" y="43" width="59" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerY" secondItem="ooq-KG-0Lf" secondAttribute="centerY" id="423-Ed-OOu"/>
+                <constraint firstAttribute="trailing" secondItem="ksz-FP-fdQ" secondAttribute="trailing" id="6sy-Rz-tom"/>
+                <constraint firstItem="VVx-dV-aTn" firstAttribute="top" secondItem="ooq-KG-0Lf" secondAttribute="bottom" constant="3" id="Efn-eX-4hy"/>
+                <constraint firstItem="ksz-FP-fdQ" firstAttribute="leading" secondItem="PuU-17-JZ8" secondAttribute="leading" id="VSF-dK-BUn"/>
+                <constraint firstAttribute="centerY" secondItem="ksz-FP-fdQ" secondAttribute="centerY" constant="21.5" id="Y4t-7e-e6F"/>
+                <constraint firstItem="ksz-FP-fdQ" firstAttribute="top" secondItem="PuU-17-JZ8" secondAttribute="top" id="b6U-ON-KjG"/>
+                <constraint firstItem="ooq-KG-0Lf" firstAttribute="centerX" secondItem="ksz-FP-fdQ" secondAttribute="centerX" id="c8f-Sv-pfg"/>
+                <constraint firstItem="VVx-dV-aTn" firstAttribute="leading" secondItem="PuU-17-JZ8" secondAttribute="leading" id="gto-Qr-Yph"/>
+                <constraint firstAttribute="trailing" secondItem="VVx-dV-aTn" secondAttribute="trailing" id="qFC-Cp-CHY"/>
+                <constraint firstAttribute="centerX" secondItem="ooq-KG-0Lf" secondAttribute="centerX" constant="0.5" id="rL5-73-4tX"/>
+                <constraint firstAttribute="bottom" secondItem="VVx-dV-aTn" secondAttribute="bottom" id="vmA-pZ-qAh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="placeNameLabel" destination="ksz-FP-fdQ" id="vNq-qv-Ss6"/>
+                <outlet property="placeRatingLabel" destination="VVx-dV-aTn" id="PiI-2F-Rkj"/>
+                <outlet property="placeTypeImage" destination="ooq-KG-0Lf" id="55r-7W-wKO"/>
+            </connections>
+            <point key="canvasLocation" x="98.5" y="-32"/>
+        </view>
+    </objects>
+</document>
