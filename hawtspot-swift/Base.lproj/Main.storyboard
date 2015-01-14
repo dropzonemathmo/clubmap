@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="hawtspot_swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="heV-Gy-XIg" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YjK-6C-bHk">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                            </navigationBar>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="rzl-v4-Hyh">
+                                <rect key="frame" x="16" y="28" width="568" height="29"/>
+                                <segments>
+                                    <segment title="Bars"/>
+                                    <segment title="Clubs"/>
+                                    <segment title="Pubs"/>
+                                </segments>
+                                <connections>
+                                    <action selector="locationTypePressed:" destination="BYZ-38-t0r" eventType="valueChanged" id="jme-oB-pLv"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.84999999999999987" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hawtspot" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWI-FE-RzQ">
+                                <rect key="frame" x="0.0" y="579" width="600" height="21"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.84999999999999987" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="redDot.png" translatesAutoresizingMaskIntoConstraints="NO" id="u7M-wh-EGO">
+                                <rect key="frame" x="0.0" y="539" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Q9b-gc-Ewx"/>
+                                    <constraint firstAttribute="height" constant="40" id="lbl-hz-rYN"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vWI-FE-RzQ" firstAttribute="top" secondItem="u7M-wh-EGO" secondAttribute="bottom" id="0fv-EQ-DWT"/>
+                            <constraint firstItem="rzl-v4-Hyh" firstAttribute="centerY" secondItem="YjK-6C-bHk" secondAttribute="centerY" id="2aY-lf-rNF"/>
+                            <constraint firstItem="YjK-6C-bHk" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="16" id="6GS-32-m4q"/>
+                            <constraint firstItem="rzl-v4-Hyh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="8OV-LE-JyR"/>
+                            <constraint firstItem="YjK-6C-bHk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="9SQ-Fz-biV"/>
+                            <constraint firstItem="heV-Gy-XIg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="Ekq-EL-fqY"/>
+                            <constraint firstItem="vWI-FE-RzQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="L2o-l9-LZM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rzl-v4-Hyh" secondAttribute="trailing" id="LzY-MO-0Io"/>
+                            <constraint firstItem="heV-Gy-XIg" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="16" id="TQ0-fq-VON"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="heV-Gy-XIg" secondAttribute="bottom" id="idm-ZI-MXy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vWI-FE-RzQ" secondAttribute="trailing" constant="-16" id="jKc-Uk-C6m"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vWI-FE-RzQ" secondAttribute="bottom" id="lbW-1t-rNd"/>
+                            <constraint firstItem="heV-Gy-XIg" firstAttribute="top" secondItem="YjK-6C-bHk" secondAttribute="bottom" id="nta-fB-SZC"/>
+                            <constraint firstItem="u7M-wh-EGO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="o7s-wM-5jV"/>
+                            <constraint firstItem="YjK-6C-bHk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="sIK-Ha-0tS"/>
+                            <constraint firstAttribute="centerX" secondItem="rzl-v4-Hyh" secondAttribute="centerX" constant="-0.5" id="wUz-CM-cnY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addressLabel" destination="vWI-FE-RzQ" id="lxY-j6-f01"/>
+                        <outlet property="gmaps" destination="heV-Gy-XIg" id="TLV-Ue-zmO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="940" y="613"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="redDot.png" width="180" height="180"/>
+    </resources>
+</document>
