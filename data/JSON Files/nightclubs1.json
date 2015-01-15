@@ -1,0 +1,540 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "CoQDfgEAADcg6wXdE8CmO6kjXMff_3-wlb6nKQV_S4Z48H7WyewBenwq4oTi0GMcxHUWEFq1OGXQS4l09rKDVBMsywVjypnDfVl0JhZOK891cSXaiMqokfdMISFXwe2Ekpa4_iOK1Z3f8k03hfSDRBVdjyYsJbr2OFFpEc_MIXTDQovrISkaqiA4X_z9oF_Olf7851SQKjltAGtLyAD7C5q_-C6kC170CHCh3cLj5OVBd6vRcAiEHoDOWhu0l-Sx3HPzMpzcwBEcN6N71FEaSDykyHAyJwdD9znFvW7RN8CNys3U3NUzVpsmOQACKo-P19Byq-NqLhDTNsKbyGn2VaaOLudRW34oAsTo9d0TJUCa9aYsrK0QKSOV0nobtsrGbq56pXZQIn9g2ISHTT9T1OSd3UJz8MkQUrrxacc3TalSbIM5RQNXMD6E6QWs6mywR1n1oZ1iq_Ew4d45IFXIrD1RRewTBFO4s52jof-wcmEPFMZmUveDVHEFztssNcXfhi1pXKLdCxIQWajbHZJX7rioevGEFCLVFRoU14CoDGpR85kPK2fw7JvvFDF60zU",
+   "results" : [
+      {
+         "formatted_address" : "89 Great Eastern Street, London EC2A 3HX, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.525794,
+               "lng" : -0.08330600000000001
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "5480daeb561937bb6293ac2f5aff922d6e6535d1",
+         "name" : "East Village Club",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJxZnlXqUcdkgRTmgcFxK28Bc",
+         "rating" : 3,
+         "reference" : "CoQBcwAAAD0VdPLRJGpRTCqIvLmnv5_EYwUtAKMrS7nyC66toheAP_pBYQQ2TII6eA_IZrbxR8ZHEYD8hJUluVrXlofhyg3MG8uoAcKRFyZK5UgKohqtaBug_2_ZiUwDQGRa_9jAkVURK45-7IWAHEogaZ5ilGlrk2iYqjUp03cY7JYgCOQ-EhDHrdbdOQXWMVsAAhgrSABCGhSGP4tV8vY3cAyP6eSjgx0wAEy2GQ",
+         "types" : [ "night_club", "establishment" ]
+      },
+      {
+         "formatted_address" : "23 City Road, London EC1Y 1AG, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.522853,
+               "lng" : -0.087115
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "11f87daee794a642bda4740955994685d6506f39",
+         "name" : "For Your Eyes Only",
+         "place_id" : "ChIJlaRX3K4cdkgRr-qgOvtdCpc",
+         "reference" : "CoQBdQAAAEuxmuFfZY6FQaMmBweaOUO0PbanP4HzT8dpcnVApYT4OlYmdrOti8O_BDs9bSPnupCROFOlJsQhK5PzZDv9WQKhl4fU0sCf5Y91XBVah1AwyziFlLu0b8Fy0ljph0H9Y7Jg2h1gSEiev196E0bjO-8fU7eimv-eZ5e1OIixBXGZEhCBfs-txHszRY3hSjpVdy2aGhQmqvRXA2jsQ6dMkT1x1K1cUoqraA",
+         "types" : [ "night_club", "establishment" ]
+      },
+      {
+         "formatted_address" : "3 Rathbone Place, London W1T 1HJ, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.516652,
+               "lng" : -0.133093
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "2d7e3daf2b443316a7581d605988b8a2498bdf5b",
+         "name" : "The Roxy",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 300,
+               "html_attributions" : [],
+               "photo_reference" : "CnRnAAAAB7Dq645T6t36M3p3cI8rjbb-46F95TYDA54mH2sc-8yCpyS1g3mcXf9VRPsNMli5U_Ll7jo7V1Gd81agOu6bEApW7S8irb9-w5Lmj3-HnMexPEyszLuMWkevnuEGqJ7vCASU-D67CSXlwz6H9FFM-RIQi8z7EN4XBjnz85_LCsYAWhoUWmpCvWRijfG5bxaC2v_rkHn__zQ",
+               "width" : 300
+            }
+         ],
+         "place_id" : "ChIJKxXG7iwbdkgRWKtXHkNZnqE",
+         "price_level" : 2,
+         "rating" : 3.2,
+         "reference" : "CnRrAAAA3xMquzapaWOfZqahbHV-lITPNghyuDvSpqP4Z2NeeyylqQbj7hcrPUgtuuc4hDebOuZJT5E9cY04o4jNiVXghr4mjFuxZb5Yh1Ooo2--3NxFDxROAT3_DRGh73bqO8zIL4xnQo7s1ttebXHmtFbm8RIQzwKmN0RWQH0pqxadgtMfmBoUDEdtZqg14Lv25_N3YD9gIoSIuXw",
+         "types" : [ "night_club", "establishment" ]
+      },
+      {
+         "formatted_address" : "13-17 Bear Street, Leicester Square, London WC2H 7AQ, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.510896,
+               "lng" : -0.129012
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "62d922133a23a7458a94d36b8a5d9b5db8f0c475",
+         "name" : "Zoo Bar & Club",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 504,
+               "html_attributions" : [],
+               "photo_reference" : "CnRnAAAAkvnwOkfaxjEiV8Ylmzsm6gljkk25-6DNZIfU331p8VD1P2cTmxu-uLS8NIuk6TiBSfEiu0W_AAnI-lfE4AFZItmEeVXRBhYzfa_LJGnb05f11jY_Yv58GBGV2rT9PyJ4NYW25B9WA2IemTGB24YoLRIQxR8hOTaCxDfYKHsM-L3RGhoUbenrrOUx1tx-X5BcXYtlwc9NuBA",
+               "width" : 755
+            }
+         ],
+         "place_id" : "ChIJm8X-9M0EdkgR7OfNHW6yApM",
+         "rating" : 3.3,
+         "reference" : "CoQBcQAAAPdG5kEBCst4ZKUd8Az8DU7Q2phXUzZBipMOJzHzFLzsfRAv5Fdmb7r8wVHxRiv7dBbX2XOCFoDh0p0zcmGRPCmBYep5E197nPPrGM64MiTTGAtJesu8tDaZ6jt8QFLNgmF2vJx4unRoS4H5HGaQqekiTetBlC-0IzKRfE1W8WmXEhB8W7KHLSfkryEhKB98KIwwGhRl3aoiyidpFC8kFyjKMQ0q3wuc-Q",
+         "types" : [ "night_club", "bar", "establishment" ]
+      },
+      {
+         "formatted_address" : "333 Old Street, London EC1V 9LE, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.527164,
+               "lng" : -0.08036500000000001
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "e1db83e13476be9fe271febf94f19648d93eb55c",
+         "name" : "333 Mother Bar",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1536,
+               "html_attributions" : [],
+               "photo_reference" : "CnRnAAAAdgB_x3cmBedHkqdQW2NGdVB_ox5v61tkiPOrggqIhS7225XheSrb91PTHAMkg3SYCTzX9E8cCC2djk63xI_sMlfYfh53b2goHu83t0hGMQSsglKu8of3IvQmgxlfzJAMeAeMZgTkRLP8x5QFEfyQwRIQaDcAPnizrNvsDL1gWGRZ7RoUSr1510qPaE557eeRCOE6LvBGQug",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJXbV_6bocdkgRntRcG4EL0do",
+         "rating" : 3.1,
+         "reference" : "CoQBcQAAAMZkXnLglX8eIWB6z0NK-KhR0GR6yPOqEPZWhx6545HGOgPK2Ws8-ZQkvP4kTEtRdOjXNdVIoZ3n0v9PjTANCvkGkdaPxSh4IirSWdmjFQBPYWPaSsRL5_MVyqeLq2NvgxXrdPsgBAKUfd5MUIWuAueXeUdJ_c4Qz-ZjPVqquSc0EhBBDMbbQ334zt0i_zBILPv3GhQ2zR9tb1OfltyPftEMMIbSoR_lAA",
+         "types" : [ "night_club", "bar", "establishment" ]
+      },
+      {
+         "formatted_address" : "29 Haymarket, London SW1Y 4SP, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.50963,
+               "lng" : -0.132408
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "a5bbc8c6d7e2358641b6c29a9d14cf4a6353556c",
+         "name" : "Tiger Tiger London",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1536,
+               "html_attributions" : [
+                  "\u003ca href=\"https://plus.google.com/106492797295809451661\"\u003eMichael Wint\u003c/a\u003e"
+               ],
+               "photo_reference" : "CnRqAAAAp6-IWz4k04XmyqEswSiyZBO-foRxRoq6w298GkhdK-XkqszndlmjMv6sxhM5yoANFIHHdv6UCK4YJg9MrBcpdOgi8V0eJ-kUchyd_j7siI6TgdtKHDsP5OgMLxz4bzFu_HbTE5QGauyx3hue5xIHRxIQ6liZUV1GKH7ngg6u2n2lARoUuFcvaXP2vvWsULCSuFuOIgQ-0Xs",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJ4-x71NMEdkgRz6HmRwuECqs",
+         "rating" : 2.9,
+         "reference" : "CoQBdQAAAPVLMONI3iBkctkALdbF470_fUVHohS37V7BShznsDuj55jV8TmCzF_YgFLbaS2h-ptBe8hvf2QsptamBTGnNsdZpBVotdwjy7XLll_DbTUojI2Aa6vwc0sU-BQgKAJTewrhCl-AOAwftDCzmBMXzYeWMTFmKSo-Z5NysWi-UF0iEhC-Inzxc5PKhZ8oi136xaAQGhT1aEZSDu68oMlnHXQcgsl8GllZpw",
+         "types" : [ "bar", "restaurant", "food", "establishment" ]
+      },
+      {
+         "formatted_address" : "4 Great Queen Street WC2B 5DJ, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.516346,
+               "lng" : -0.120126
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "4958ca32940b4558e3d3b110cc9ddbaa55cc3f61",
+         "name" : "The Red Rooms",
+         "place_id" : "ChIJfRzy3zQbdkgRn4a1B0wsNfE",
+         "reference" : "CnRwAAAARIfpYPCT2cnZLYChnPE2wrIJMB_zG7TwF4Apoiti74bED4LRFp2RpxnHekXfWQXPJ9ewW1-nHJsYipIrNlwye4E6yq2q2HbuEEhm-5vjb05Sl_ccVzz95IOQhykZxr0ku7IaQlzFp0t7ioQCSwsHVhIQmA2UMvpHLOBkznN3adkOLhoUL9K9blNUgOV7yqTIur3-4EUYhlA",
+         "types" : [ "night_club", "establishment" ]
+      },
+      {
+         "formatted_address" : "The Old Truman Brewery, 150 Brick Lane, London E1 6QL, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.521382,
+               "lng" : -0.071672
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "a83a0d1ea94083465b0507b7e72153de86290b81",
+         "name" : "93 Feet East",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 658,
+               "html_attributions" : [],
+               "photo_reference" : "CnRnAAAAPLLxWRR8uQ9UQe9LqlogbbBC831rKUbOKWwLG_sJG7t-tgQX7NqGsjSaZ3FMzIvf_q4ukgYXfpQseSPmPS9WBEER2EV2Z4yjyjLxR2zuZlZI-MWYxSuYj19FM82mdY3yju2fV8YAQuEQhD-MQBpWAhIQ14Vt8qZtWGRIta13RolRThoUKDQK6lz1Ly-biE4DkKkxhpBKjSo",
+               "width" : 981
+            }
+         ],
+         "place_id" : "ChIJidMFFbYcdkgR5JvMOfGOfGM",
+         "rating" : 3.6,
+         "reference" : "CnRuAAAA848A8BdiGuGklc5KXgLpnZOsGSNSXbUwZloGQX_XB4nVNCyiwIvZK81oyPqfWzAq_tseAR0ppQuhASFKpeh42FZLqrWZoASilgPeUQynYZbbXukz9e7HlqPnXtnrVWveNFR5YF1ZCgfLdfKveJxaVhIQUZQLK7nW-ILsi46RQgapIRoUg8DzEff5CLUpLGpbm-BbygFkuWE",
+         "types" : [ "night_club", "bar", "establishment" ]
+      },
+      {
+         "formatted_address" : "174 Camden High Street, London NW1 0NE, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.539169,
+               "lng" : -0.142248
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "b560ca45a4aeb483604fd25a565fb69bc4b6af57",
+         "name" : "Underworld Night Club",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 480,
+               "html_attributions" : [
+                  "\u003ca href=\"https://plus.google.com/104670316167059442982\"\u003eConceição Costa\u003c/a\u003e"
+               ],
+               "photo_reference" : "CnRoAAAAjckkToD9op9OJL3Z2Dz-iBZqTR0MmXjYZqlztnJ7SStaCEDHWZf0VszomK5ALKgvRTjPU39GdeIvaSIKnNT7m0Fsq2PR9xzSJPJEHe8hbApw13A5hUPeYu9sM9Y6Aftz-G0ZzOwkrqV3lykOcV5L2xIQ9cqxhZmokZIgt4XP35KakxoUjV84xmJswOFjy4Gehnpx2xCL-mw",
+               "width" : 1096
+            }
+         ],
+         "place_id" : "ChIJjeItM-AadkgRMreoiyOzTNM",
+         "price_level" : 3,
+         "rating" : 3.7,
+         "reference" : "CoQBeAAAAOqHJXsT2u_zHT9lAm4dJps2HjJjBjcZgvrrTK5owLD1bcsuGYyD-CIpe_d5N3z8FYrLsqcXis3r99mBk2I6UDBh8ZGTrZhc5t6yZ23VSUoJtdxJok-TRtXmNqC9_n2zoD2W2cpuJqliGjhW3FaKCynkNKP2GkASpWM3K-Q-Nc6jEhBzuMBgfiM5hrRmPgkA-za1GhSb5DWnTv5PCTReu-f-k9sCPVPfrQ",
+         "types" : [ "night_club", "establishment" ]
+      },
+      {
+         "formatted_address" : "49-50 Dover Street, London W1S 4NY, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.507564,
+               "lng" : -0.141621
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "751e68df5e0a95774b715f228d586f4b2908d5d8",
+         "name" : "The Mayfair Club",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 465,
+               "html_attributions" : [
+                  "\u003ca href=\"https://plus.google.com/110554467793871159484\"\u003eSimon Delaney\u003c/a\u003e"
+               ],
+               "photo_reference" : "CnRqAAAAAZlroqqK-Eaq-bARh8Ur3xXjcr68a04UUKokIlsgCoKno2NZOnF09gYC4i1gZgLJyxJrkk4FVGCNy5KamH_jBJSqtLFw1_ehWbwXdimwdv65b7W_INguaW5xa3lDbsdtmUfNhpgiiZTTN6JcQAyGORIQBEGPaN3hRFRSfG0icCOdlRoUNISWqp4RXgpDPb3LwsnCw9m-e4A",
+               "width" : 400
+            }
+         ],
+         "place_id" : "ChIJ-Ri6zykFdkgRZ29NzSoqHLA",
+         "rating" : 4.3,
+         "reference" : "CoQBcwAAAMUGELJhLqo-fPnuhv8DuEosLMmWskpPql-0pQZlSPQGcDxCxFkt8saBggU9lGWHvVlcQEGahVDlnvhzZjSPBy0WJf9NpsepavuuI_8lU0FkzlW0pBHesitbMx_fIp8q8vYWp2xf-k3hYVBnebBLCm8Nc8Mi-XNemgrf6az1uB_ZEhD69V2IUv-qGq_kVod-Ze-pGhQWeyJjVraTcK_eLtZ4YxfD155h2g",
+         "types" : [ "night_club", "establishment" ]
+      },
+      {
+         "formatted_address" : "19 Upper St Martin's Lane, London WC2H 9EF, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.512265,
+               "lng" : -0.126775
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "a13fea166b39aea63f6d81bd6d48cfbc82a3ac4d",
+         "name" : "Stringfellows Covent Garden",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 250,
+               "html_attributions" : [],
+               "photo_reference" : "CoQBegAAAKGa6MK0ltrJD7pkt28SaazRnXj-yW7vubZxIkzV7eEwQsbDR6z1hHIGpHEDuIM9LjX5rOBu0XIWV8szxC_gA0HAMwvjV2spY6yb4cjyVg02uBaAbH5tZk9TjM2MpVBKzqKBGIJDDHZJqd3an4IylCq4zT5uN-hbC4y9gOdOxOhuEhCpJh1CfVui7mzVeVC31Zc1GhTEZuTVD7Tmx3_p8zjMgQJ3S-7ntA",
+               "width" : 250
+            }
+         ],
+         "place_id" : "ChIJnRPOqc0EdkgR5-6bGTaRqkk",
+         "rating" : 3.4,
+         "reference" : "CoQBfQAAAJ8vSWqnaQmHiTinH0QQFZRngoccJKli7D7RuMvuD_GWCMCqrDI7eEn8wMht7DFcWriQvqL_7zF-Zw9bMqBcjKYWCYR2ePn2vsSNoww-wfYODQqoUSfCQyvaGmPu8DNpppOYt-6Tgh7qBVpN_KS2GnGwNL7Bej8wBklGhA3DeOXpEhBWGpAXf9MCxajOZd8M3G1mGhTYLvsYKTl4YZsbDD64W0KjuYS2UQ",
+         "types" : [ "night_club", "restaurant", "food", "establishment" ]
+      },
+      {
+         "formatted_address" : "5 Brewer Street, London W1F 0RF, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.51234,
+               "lng" : -0.13362
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "a427cfa49459a9d20eaa1597f7b04625be39de99",
+         "name" : "The Shadow Lounge",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 798,
+               "html_attributions" : [],
+               "photo_reference" : "CnRnAAAAqmVwDaDTX265QG833Rpufjyldgke6HBjEhUJrT-HBb_GYW_awmVAGQij3V96tioDYfoPWx8_twXMv31OpFbj9r_3jCSk4E7lh-V34pR8CI-RKACbEwVL0ilfshMJp1N1eNDC59VKq6KVX8sr7EUd8BIQ3mafpdTYntsjT66vQhXiwxoUdxDGYROOOL_x4Rvd2Maz6dmLHdg",
+               "width" : 1200
+            }
+         ],
+         "place_id" : "ChIJc0FSddMEdkgR9dFThsDbg28",
+         "price_level" : 3,
+         "rating" : 3.8,
+         "reference" : "CoQBcwAAAEleVh3jngtAHxdHgaiYq3zcNmxYxpc_qBO6JxsEjlbvRevH2M0BndnQP5M4he1UHGWkid8jnQE_DHbZzVcy9oh6vlSs99eOPb0VZvv5vqqzML7LObUvZTb6XNShxUgV9c1bZTDCkDYJULGN_39p6EGnA101rMOd2Yp8fUys68swEhDNxovxUYP3_S6LpnlKj5DMGhSNDZBVSf8Zc57_UOLI9cUxk_5dWw",
+         "types" : [ "night_club", "bar", "establishment" ]
+      },
+      {
+         "formatted_address" : "1 Dover Street, London W1S 4LD, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.507706,
+               "lng" : -0.141319
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "35c3229f6a7f594873211b096dfc6a942fdf09e2",
+         "name" : "Mahiki",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 533,
+               "html_attributions" : [],
+               "photo_reference" : "CnRnAAAA4vaZAaqYkqt5Rg9zLk-VjmssbmMqhZVIWZLTYFWw8X0l57OuTSwmh8fDfaxWcjoOij0FG-chp3fNsYQeU7TDj5MuYtqQto4I_MUT8EUPoQHVJMkzxGbXUm9FJBN-fsC5NWvw89s8ct5RCrtLU7wCpRIQ2sHGu9C5RQnT8A5bD8hVbRoUfMAoQs6oBticbuFP8n_9vNC7uaA",
+               "width" : 800
+            }
+         ],
+         "place_id" : "ChIJW6Tk99UEdkgRnKPt55v7t4I",
+         "price_level" : 2,
+         "rating" : 3.4,
+         "reference" : "CnRpAAAAdGs-OgnD8Fuiv93YntAe_LsGPi98JWK87duY5t_zzzIffqzug6J8tMv86EPZ-0mw3S12--XIREC24LsvwlE_ECrotxq0WBbDf5VxRhm4cb7gvT9vc1uPH-rvPgOcPQHicLasyU7dNFFbtur09gTNqRIQaPn823P67jELvCYoC68-2BoUl0TwE2gmvflT9rd739f-If2dZPE",
+         "types" : [ "night_club", "bar", "establishment" ]
+      },
+      {
+         "formatted_address" : "48-49 Saint James's Street, London SW1A 1JT, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.507503,
+               "lng" : -0.140578
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "a0a96eea1f8120aecd6548a9006a262139b9b748",
+         "name" : "Aura Mayfair",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJfwJIKdYEdkgRa-xOhLkhDts",
+         "price_level" : 4,
+         "rating" : 2.8,
+         "reference" : "CnRvAAAAdqC1XGLz9SEqnMHLbEXHxFm22zcxSEg9OOb2A_DBYg1AhUf4nX9C5fvIZ16NABDPiqZle-MaPNvKmH3BmX60-ZMoll9FY8sIiVSJbIJyYlU62jEpRgecSROUrufhPNPgD6YItxCIxEn13c1VLZi3dhIQjUooW6cPwBozkLFtnuukgxoUzwRYZjCKLBt22Uk8HxC3kx3gLK8",
+         "types" : [ "night_club", "bar", "establishment" ]
+      },
+      {
+         "formatted_address" : "68 King William Street, London EC4N 7DZ, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.511004,
+               "lng" : -0.086769
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "9ff8048d133bcc528b2e951f4417a75034c5334b",
+         "name" : "London Groove Ltd",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 130,
+               "html_attributions" : [],
+               "photo_reference" : "CnRnAAAAqZoId9D9_V3PgTlmtnlY_Vn3i1Pz8sYk2I8Z6nygj-nqhiVMPZYLPFdVIe2GwHQdXTAkXhLETx_TvXacHiqDgIbl6YoRMTCa_l3BAGy93XiEj5cKDdkMcGQ_S5TrysyzDR-AFFkXDmxl9ueypXbUBBIQjmUwkYpEM0MNkngqq3bYVxoUm2Ba5KxYC03b9l4c_f0gt2odOEc",
+               "width" : 130
+            }
+         ],
+         "place_id" : "ChIJR10jw1IDdkgRodb31ZOtWzQ",
+         "reference" : "CoQBcwAAACnhVdlRo4c0-JkhnbWqfKEkTIAGVQ_GMbLGqpWGxq2EUxIT3S93uGtsofnh6Q-aiea1aypZeAf5WlrG8he37gpm5aFdakIqwdf3lBgWCiEyLfUTXY6LUBPzlZCgmRe261XAyTLMnqLxmPe0_3UUA2JIJ1DiR3TCsSWAgQJ13kVQEhBzssdGsainiVF0_UBXf2_YGhSFk_eFeMh93aDmxWjmJ2xoX7vUzA",
+         "types" : [ "store", "night_club", "establishment" ]
+      },
+      {
+         "formatted_address" : "11-12 Walker's Court, London W1F 0SD, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.512513,
+               "lng" : -0.134077
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "683a8c12a741edc54991af23835bf9b86714f68a",
+         "name" : "The Box Soho",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 947,
+               "html_attributions" : [
+                  "\u003ca href=\"https://plus.google.com/105481789648194282550\"\u003eSam Bolstridge\u003c/a\u003e"
+               ],
+               "photo_reference" : "CnRoAAAAWH-JEF8X_zB2x0872k-6jAPu7L5X95EfgWVcVEFLcE6fspWhJqEquYlGJSlPITW-hoXtEuSidHRF_UbvDR7Z1Yy5MQSrMvwBJSrj4PuCGTTbdZAU96e9Z9ob2Ic8yCBj9L4wVaCeSeIsW9rrRn9EUxIQ3VmkvzNe3fZ1_3-e6QA7RBoUERlG6WddpmSMszPRI4XfXDCUD9Q",
+               "width" : 1268
+            }
+         ],
+         "place_id" : "ChIJQwg8d9MEdkgR4p34WQTyRcM",
+         "rating" : 3.6,
+         "reference" : "CnRvAAAAFviedt3mvWB9V5K_m9GbY-FWzZ9A9odi1wh6CQ7NVHz0DIKWUMDr5G3Jzg-DWxJIHkSwrYqYiNU-kz2Tf47pheNmjHQ5IButByPPbm-g6fOwzLiUcT_hxYzhfU_pnfiiggvVDbH4klEAmHAunD7CAxIQ8fDc3JxQKrLAroBhLFdCOxoUV2jLB17AdCwwECesdkSu5VK11OM",
+         "types" : [ "night_club", "establishment" ]
+      },
+      {
+         "formatted_address" : "23-25 Old Compton Street, London W1D 5JL, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.513096,
+               "lng" : -0.13091
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "6e49e8f1159cafc17a565467fede2c366354b2f1",
+         "name" : "Bar Soho",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1600,
+               "html_attributions" : [],
+               "photo_reference" : "CnRnAAAAhgfnIdD8bqvjoWgGcMfrCWez5uwfy47w3IjEGZj-_rW1oYXdtCmklEq6CHoxmY-c3Pf_E7SXvONjT-80pguvy_reTBULZg5_jh-H0Dd63WbGpCbzWvgt1rlyhk4DXDZaeHZfbakN8dUv9TfJpAoCRBIQCzvs6hzKKm3wm1amAgr2VRoUVnmtPtwVyu6dCodX8wzZl8toXEg",
+               "width" : 2844
+            }
+         ],
+         "place_id" : "ChIJhQm0yNIEdkgRC4bXiV3RvY4",
+         "rating" : 3.3,
+         "reference" : "CnRrAAAAruqFT0bMPpjKIKyFT4nVBk1fn5OgEMtCt9pDAehg07gOLAxlGDN_oSVxg77meS30jn6itGRrJXPhNufTZ6I9aKvfyB5lyXyr4MskfMWWof_C2iof_UJSfAxt2NYHo_e0BC6zrg9x_PqX5Az6cLCCrRIQiQDxvZ8ty4gl3NknvLWgXBoUY7zjFstr7rwL1YE2XNFA7f_4J3Y",
+         "types" : [ "bar", "establishment" ]
+      },
+      {
+         "formatted_address" : "Orange Yard, Manette Street, London W1D 4JB, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.515086,
+               "lng" : -0.130537
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "58c59675ac8e1c4e8df632bf51855fd413abc2d6",
+         "name" : "The Borderline",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1296,
+               "html_attributions" : [
+                  "\u003ca href=\"https://plus.google.com/116239350147645910748\"\u003eCristina Stancu\u003c/a\u003e"
+               ],
+               "photo_reference" : "CnRoAAAAQW9iGcoBhlHs3imiNUDy33nsM0hK53UYmKyOArD2VHiJlyfx9xBSlndya7W5buWBFSrzDrkXCVCS5nvoYhlUM1ofNKzAkd86g5NeTasA_8YDdp8K5pWgJy8DJM2PYP3b7qXiKNXQieAvJqiGs7LSVBIQYCtpx19As77zfkzA9TW5TBoUmBE3mZXbv5q6kTgd2Uu9prM6rCo",
+               "width" : 972
+            }
+         ],
+         "place_id" : "ChIJM625tNIEdkgRK_6iESQxZ2Y",
+         "price_level" : 2,
+         "rating" : 4.1,
+         "reference" : "CnRwAAAA1bpa2NHLCLocIqaXNdrtviTQeka2DLMfp9r3ZLbig2-HHKkGpaDUaQKeqzCyk6BwWCdUNkIy-7ALUplL0kVBpqX5bpEPtJAz0Aul35gSF4AGhfxwkIP93hNRtRjOV4NZqqt0D8GyjS8rURr_E8CgxBIQGhC8M7g5OBtQHPcn2DHEMxoUPa54nWlK-0klnOwMRQxgBEnahqs",
+         "types" : [ "night_club", "establishment" ]
+      },
+      {
+         "formatted_address" : "44 Berkeley Square, London W1J 5QB, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.50945,
+               "lng" : -0.146488
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "5af5740e2842b92a92fc19826ef834055107f184",
+         "name" : "Annabel's",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1169,
+               "html_attributions" : [],
+               "photo_reference" : "CnRnAAAAsjG0GDB8RVA99mBBAFki5lajGWBhLyi6RVZZxBzxQFVLQsdh5rIwwrkg00BkY-C0D_VYKgno5nOwi5bEm2WdNY-5iOveO-Z0ApD5pByM53bijx5mzx4c_WmzL64Es-NiO9api0qa9erafBycupThPxIQKIb4g3LcTxE-cOvSiodLThoUud1viqI2BSMPz_7AO801rHgzZYA",
+               "width" : 1559
+            }
+         ],
+         "place_id" : "ChIJUw6mrS4FdkgRwZyBsbycWiM",
+         "rating" : 4,
+         "reference" : "CnRrAAAALnOo2Fvb8Li00GP4hvb6q0bjS7k5ysN1mncrS0-ISEE7Kb5gjnjqhhPgpabV7biOEzR4_M9zi5R8CU-r58gXCLAheRHQ5pyVzLO1E9W9iRZf7_9UObH_-1F0H-rru2yPkBZGFBXWyW5AttEh_rkTQRIQXQGMjXQUPiSdbhFo7vFE3xoUmJ-rT7oAMFvQ3lCZXsEIzKJWniU",
+         "types" : [ "night_club", "bar", "restaurant", "food", "establishment" ]
+      },
+      {
+         "formatted_address" : "Victoria Embankment, Whitehall, London SW1A 2HR, United Kingdom",
+         "geometry" : {
+            "location" : {
+               "lat" : 51.505612,
+               "lng" : -0.12217
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "9969de3231a3dedc4ae7a5ec603fca2678698977",
+         "name" : "Tattershall Castle",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 848,
+               "html_attributions" : [],
+               "photo_reference" : "CnRnAAAAqkt2mtGZnLqRCRnm-ZJKlSDxyQ_AGZQ-JW_j_vhILfANb_Hf0kYZEKfFxU2urD5w_W2uLUbDBZyho2VF-mFMiWTH3uKDRaHYyKKv17lkHlHbCKPeYcdt06GuKEN6oK6K3TeuSWu8B1MVwDoSyxPVZBIQ2XH_RHQP3x9gOSPtMuHEKxoUhYmcysbk-vTm0QIAobolZxbB9hA",
+               "width" : 1280
+            }
+         ],
+         "place_id" : "ChIJR3wAzLEEdkgRTdaPTuBjrA4",
+         "rating" : 3.6,
+         "reference" : "CoQBdAAAABzAvHYzbAqdquJZBW-1LmsgwQ3tHH4aY-toKTq-Mc4itwZyilFCwjvkt898ytCFmYKAbQAe6A0ok_TGURB38SgDWq0RHeIZbjGzb7tQksKpIBl_cLURKgBNSFz-4QnbmZhZUsm_zY8dvFkyWmU1GX2zY7kXB63UBoYywK8pogQmEhDsO_HUFS3259OHM1Wv1ukjGhRG6rMAGlFFH7puGVQQPe_c3AAH-w",
+         "types" : [ "night_club", "bar", "restaurant", "food", "establishment" ]
+      }
+   ],
+   "status" : "OK"
+}

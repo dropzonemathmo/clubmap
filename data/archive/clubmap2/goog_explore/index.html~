@@ -1,0 +1,9 @@
+<html>
+<head>	
+	<title>Club Map Data Portal</title>
+</head>
+<frameset rows="2">
+	<frame src="header.html" name="head">
+	<frame src="main.html" name="main">
+</frameset>
+</html>

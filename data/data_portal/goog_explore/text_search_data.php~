@@ -1,0 +1,27 @@
+<html>
+<head>
+	<title></title>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+</head>
+<body>
+<h1> Club Data Text Search </h1><br>
+
+<?php include 'print_text_search.php';?>
+
+<?php
+
+
+$textSearch = $_POST["text_search"];
+$GoogAPIKey = $_POST["GoogAPIKey"];
+
+
+	echo "<table border=1><tr><td><b>name</b></td><td><b>place id</b></td>";
+
+	printtextsearch($textSearch,$GoogAPIKey);
+
+	echo "</table>";
+	
+
+?>
+</body>
+</html>

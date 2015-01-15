@@ -1,0 +1,27 @@
+<html>
+<head>
+	<title></title>
+
+	<script src="//code.jquery.com/jquery.min.js"></script>
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<div style="padding:30px">
+
+ <h1><img src="Images/hawtspot_logo.png"> Data Portal   </h1> 
+	<a href="csv_import.html" target="main" class="btn btn-primary">csv_import</a>
+	<a href="exportJSON.html" target="main" class="btn btn-primary">exportJSON</a>	
+	<a href="classifyTag.html" target="main" class="btn btn-primary">classifyTag</a>
+	<a href="goog_explore/index.html" class="btn btn-primary">Goog Explore</a>	
+nim api key: AIzaSyBC6RbSfyoOqtsnGXkd6ov5GdRTM_Uiy5Q
+
+</div>
+<br>
+
+
+</body>
+</html>

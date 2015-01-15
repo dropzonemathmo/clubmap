@@ -1,0 +1,21 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>classifyTag</title>
+</head>
+
+<body>
+
+
+<form action="classifyTag.php" method="post" enctype="multipart/form-data" name="form1" id="form1">
+	Classification: <input type="text" name="Classification"><br>
+	Tag: <input type="text" name="Tag"><br>
+
+  <input type="submit" name="Submit" value="Submit" />
+</form>
+
+</body>
+</html> 
