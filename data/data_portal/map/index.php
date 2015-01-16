@@ -1,0 +1,104 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Simple markers</title>
+    <style>
+      html, body, #map-canvas {
+        height: 100%;
+        margin: 20px;
+        padding: 20px
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+
+    <?php
+    	$urlofaddress = "../bar.txt";
+        $resp_add_json = file_get_contents($urlofaddress);    
+        $resp_add =  json_decode($resp_add_json, true);
+        $length = count($resp_add);
+	echo $resp_add[1]["name"];
+	echo $resp_add[1]["geocoord_lat"];
+	echo $resp_add[1]["geocoord_long"];
+  	
+    ?>
+
+
+    <script>
+function initialize() {
+  var myLatlng = new google.maps.LatLng(51.52338,-0.07522);
+  
+var mapOptions = {
+    zoom: 10,
+    center: myLatlng
+  }
+  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+<?php
+
+
+
+for($y = 1; $y <$length; $y++){
+
+
+$lat = $resp_add[$y]["geocoord_lat"];
+$long = $resp_add[$y]["geocoord_long"];
+
+$name = $resp_add[$y]["name"];
+
+echo "
+
+  var newLatlng$y = new google.maps.LatLng($lat,$long)
+
+  var marker$y = new google.maps.Marker({
+      position: newLatlng$y,
+      map: map})
+
+     var iw$y = new google.maps.InfoWindow({
+       content: '$name'
+     });
+     google.maps.event.addListener(marker$y, 'click', function (e) { iw$y.open(map, this); });";
+
+}
+
+
+?>
+
+
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+  </head>
+  <body>
+    <div id="map-canvas"></div>
+
+<table>
+
+<?php
+
+
+
+for($y = 1; $y <$length; $y++){
+
+
+$lat = $resp_add[$y]["geocoord_lat"];
+$long = $resp_add[$y]["geocoord_long"];
+
+$name = $resp_add[$y]["name"];
+
+echo "<tr><td>$name</td></tr>";
+}
+
+
+?>
+
+</table>
+
+
+  </body>
+</html>

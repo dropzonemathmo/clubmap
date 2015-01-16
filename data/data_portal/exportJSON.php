@@ -23,7 +23,9 @@
 	unset($myArray);
 
     $myArray = array();
-    if ($result = $mysqli->query("SELECT name, rating, total_rating, address, geocoord_lat, geocoord_long, classification, mon_closing_time, tues_closing_time, wed_closing_time, thurs_closing_time, fri_closing_time, sat_closing_time, sun_closing_time FROM placeInfo WHERE classification LIKE 'NightClub' AND mon_closing_time<>''")) {
+    if ($result = $mysqli->query("SELECT name, rating, total_rating, address, geocoord_lat, geocoord_long, classification, mon_closing_time, tues_closing_time, wed_closing_time, thurs_closing_time, fri_closing_time, sat_closing_time, sun_closing_time FROM placeInfo WHERE classification LIKE 'NightClub' AND geocoord_lat<>'' AND sat_closing_time<>''")) {
+
+// 
         $tempArray = array();
 	echo "the result is<br>"; 
 

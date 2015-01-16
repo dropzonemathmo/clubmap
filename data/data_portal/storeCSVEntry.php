@@ -29,7 +29,8 @@ function storeCSVEntry($name,$address,$tag,$ordering,$GoogAPIKey){
 	//echo $resp_json;
 	$count = count($resp["results"]);
 
-	for($y = 0; $y < $count; $y++){
+// only do it for one value not total count
+	for($y = 0; $y < 1; $y++){
 		//if no place id store as such
 		echo "<h1> place id coming up</h1><br>";
 		echo $resp["results"][$y]["place_id"];

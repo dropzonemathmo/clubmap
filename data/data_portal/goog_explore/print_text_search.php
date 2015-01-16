@@ -20,6 +20,9 @@ $text_encode = urlencode($textSearch);
 
 $urlofaddress = "https://maps.googleapis.com/maps/api/place/textsearch/json?query={$text_encode}&key={$GoogAPIKey}";
 
+	// Report all errors except E_NOTICE   
+	error_reporting(E_ALL ^ E_NOTICE);
+	
 	//connect to database
 	$conn = connectToDatabase();
 
