@@ -1,14 +1,22 @@
 <html>
 <head>
 	<title></title>
+
 	<script src="//code.jquery.com/jquery.min.js"></script>
 	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
-
 </head>
 <body>
-	Welcome to ClubMap Data Portal
+
+<div style="padding:30px">
+	<a href="nightclub.php" target="map_main" class="btn btn-primary">nightclub</a>
+	<a href="bars.php" target="map_main" class="btn btn-primary">bars</a>	
+	<a href="pubs.php" target="map_main" class="btn btn-primary">pubs</a>
+</div>
+<br>
+
+
 </body>
 </html>

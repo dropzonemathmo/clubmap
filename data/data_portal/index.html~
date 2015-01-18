@@ -4,7 +4,7 @@
 
 
 </head>
-<frameset rows="140,*" border="0" style="margin-left:30px">
+<frameset rows="140,*" border="0" style="left-margin:30px">
 	<frame src="header.html" name="head">
 	<frame src="main.html" name="main">
 </frameset>

@@ -2,63 +2,69 @@
 
 <?php
 
-    $mysqli = connectToDatabase();
+ 
+
+function exportJSON($type){
+
+   $mysqli = connectToDatabase();
     $myArray = array();
-    if ($result = $mysqli->query("SELECT name, rating, total_rating, address, geocoord_lat, geocoord_long, classification, mon_closing_time, tues_closing_time, wed_closing_time, thurs_closing_time, fri_closing_time, sat_closing_time, sun_closing_time FROM placeInfo WHERE classification LIKE 'Pub' AND mon_closing_time<>''")) {
+    if ($result = $mysqli->query("SELECT name, rating, total_rating, address, geocoord_lat, geocoord_long, classification, mon_closing_time, tues_closing_time, wed_closing_time, thurs_closing_time, fri_closing_time, sat_closing_time, sun_closing_time FROM placeInfo WHERE classification LIKE '$type'  ORDER BY rating DESC")) {
         $tempArray = array();
 	echo "the result is<br>"; 
 
         while($row = $result->fetch_object()) {
                 $tempArray = $row;
+
+		$tempFloat = floatval($tempArray->{'geocoord_lat'});
+		$tempArray->{'geocoord_lat'} = $tempFloat;
+
+		$tempFloat = floatval($tempArray->{'geocoord_long'});
+		$tempArray->{'geocoord_long'} = $tempFloat;
+
+		$tempFloat = floatval($tempArray->{'rating'});
+		$tempArray->{'rating'} = $tempFloat;
+
+
+		$tempFloat = floatval($tempArray->{'total_rating'});
+		$tempArray->{'total_rating'} = $tempFloat;
+		
+		$tempArray->{'opening_times'} = array($tempArray->{'sun_closing_time'},
+							$tempArray->{'mon_closing_time'},
+							$tempArray->{'tues_closing_time'},
+							$tempArray->{'wed_closing_time'},
+							$tempArray->{'thurs_closing_time'},
+							$tempArray->{'fri_closing_time'},
+							$tempArray->{'sat_closing_time'});
+
+//	$tempArray->{'opening_times'}->{'6'} = $tempArray->{'sat_closing_time'};
+		
+		unset($tempArray->{'mon_closing_time'});
+		unset($tempArray->{'tues_closing_time'});
+		unset($tempArray->{'wed_closing_time'});
+		unset($tempArray->{'thurs_closing_time'});
+		unset($tempArray->{'fri_closing_time'});
+		unset($tempArray->{'sat_closing_time'});
+		unset($tempArray->{'sun_closing_time'});
+
                 array_push($myArray, $tempArray);
             }
         
-	echo json_encode($myArray);
-	file_put_contents("pubs.txt", json_encode($myArray));
+	echo json_encode(array("results"=>$myArray));
+	file_put_contents("$type.txt", json_encode(array("results"=>$myArray)));
 
     }
 
     $result->close();
+
 
 	unset($myArray);
 
-    $myArray = array();
-    if ($result = $mysqli->query("SELECT name, rating, total_rating, address, geocoord_lat, geocoord_long, classification, mon_closing_time, tues_closing_time, wed_closing_time, thurs_closing_time, fri_closing_time, sat_closing_time, sun_closing_time FROM placeInfo WHERE classification LIKE 'NightClub' AND geocoord_lat<>'' AND sat_closing_time<>''")) {
+   disconnectFromDatabase($mysqli);	
 
-// 
-        $tempArray = array();
-	echo "the result is<br>"; 
+}
 
-        while($row = $result->fetch_object()) {
-                $tempArray = $row;
-                array_push($myArray, $tempArray);
-            }
-        
-	echo json_encode($myArray);
-	file_put_contents("nightclub.txt", json_encode($myArray));
-
-    }
-
-    $result->close();
-	unset($myArray);
-
-    $myArray = array();
-    if ($result = $mysqli->query("SELECT name, rating, total_rating, address, geocoord_lat, geocoord_long, classification, mon_closing_time, tues_closing_time, wed_closing_time, thurs_closing_time, fri_closing_time, sat_closing_time, sun_closing_time FROM placeInfo WHERE classification LIKE 'Bar' AND mon_closing_time<>''")) {
-        $tempArray = array();
-	echo "the result is<br>"; 
-
-        while($row = $result->fetch_object()) {
-                $tempArray = $row;
-                array_push($myArray, $tempArray);
-            }
-        
-	echo json_encode($myArray);
-	file_put_contents("bar.txt", json_encode($myArray));
-
-    }
-
-    $result->close();
-
-
-   disconnectFromDatabase($mysqli);
+	exportJSON("Pub");
+	exportJSON("NightClub");
+	exportJSON("Bar");
+  
 ?>

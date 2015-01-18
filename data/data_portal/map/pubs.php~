@@ -1,0 +1,9 @@
+<?php include 'printmap.php';?>
+
+<?php
+
+$jsonAddress = "../pubs.txt";
+
+printmap($jsonAddress);
+
+?>

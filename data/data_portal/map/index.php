@@ -16,7 +16,7 @@
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 
     <?php
-    	$urlofaddress = "../bar.txt";
+    	$urlofaddress = "../nightclub.txt";
         $resp_add_json = file_get_contents($urlofaddress);    
         $resp_add =  json_decode($resp_add_json, true);
         $length = count($resp_add);

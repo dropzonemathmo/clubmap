@@ -1,18 +1,24 @@
 <html>
 <head>
 	<title></title>
+
+	<script src="//code.jquery.com/jquery.min.js"></script>
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 
-<h1>HawtSpot Place Search</h1>
-	<a href="place_search.html" target="main">place search</a>
-	<a href="nearby.html" target="main">nearby</a>
-	<a href="radar.html" target="main">radar</a>
-	<a href="text_search.html" target="main">text search</a>
-	<a href="csv_export.html" target="main">csv export</a>
+<div style="left-margin:30px">
+
+	<a href="place_search.html" target="goog_main" class="btn btn-primary">place search</a>
+	<a href="nearby.html" target="goog_main" class="btn btn-primary">nearby</a>	
+	<a href="radar.html" target="goog_main" class="btn btn-primary">radar</a>
+	<a href="text_search.html" target="goog_main" class="btn btn-primary">text search</a>
+</div>
 <br>
 
-nim api key: AIzaSyBC6RbSfyoOqtsnGXkd6ov5GdRTM_Uiy5Q
 
 </body>
 </html>

@@ -1,0 +1,27 @@
+<?php
+// Create connection
+$con=mysqli_connect("mysql.2freehosting.com","u714891374_admin","Peanut69","u714891374_crowd");
+
+
+
+// Check connection
+if (mysqli_connect_errno()) {
+  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+}
+
+$i = 1;
+while ($i <= 10) {
+$upentry = "up".$i;
+echo $upentry;
+$newupscore = $mysqli_real_escape_string($con, $_POST[$upentry]);
+echo $newupscore;
+/*$downentry = "down".$i;
+$downupscore = $mysqli_real_escape_string($con, $_POST[$downentry]);
+$sql="UPDATE Stories2 SET SCORE = SCORE + $newupscore WHERE id =". $i;*/
+$i++;
+}
+
+mysqli_close($con);
+?>
+
+
