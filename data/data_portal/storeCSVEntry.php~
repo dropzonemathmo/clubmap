@@ -15,7 +15,7 @@ function storeCSVEntry($name,$address,$tag,$ordering,$GoogAPIKey){
 	);  
 
 
-	$text_encode = urlencode($name.$address);
+	$text_encode = urlencode($name." ".$address);
 
 	$urlofaddress = "https://maps.googleapis.com/maps/api/place/textsearch/json?query={$text_encode}&key={$GoogAPIKey}";
 
@@ -28,10 +28,11 @@ function storeCSVEntry($name,$address,$tag,$ordering,$GoogAPIKey){
 	
 	//echo $resp_json;
 	$count = count($resp["results"]);
+
 // only do it for one value not total count
 	for($y = 0; $y < 1; $y++){
 		//if no place id store as such
-		echo "<h1> place id coming up</h1><br>";
+		echo "<br><h3>searching for $text_encode </h3><br>";
 		echo $resp["results"][$y]["place_id"];
 		if (empty($resp["results"][$y]["place_id"])) {
     			echo "no place_id found for $name <br>";
@@ -39,23 +40,23 @@ function storeCSVEntry($name,$address,$tag,$ordering,$GoogAPIKey){
 		}		
 		else {
 			$placeid = $resp["results"][$y]["place_id"]; //store that with tag and ordering in queryTable
-			echo "place id found $placeid $name <br>"; 
+			echo "place id found for $text_encode : $placeid  <br>"; 
 		}
 	
 		//if Place Id not in table store in table
 
-		echo "Now Check to see if already stored in database <br><br>";
+		echo "Check to see if $placeid stored in database <br>";
 		$checkidsql = "SELECT * FROM placeInfo WHERE place_id='$placeid' LIMIT 5";
 		$place_id_exist = mysqli_query($conn,$checkidsql);
 		
 		var_dump($place_id_exist);	
 		if ($place_id_exist->num_rows == 0) {
   			// do something
-			echo "new place found with placeid $placeid";
+			echo "new place found with placeid $placeid <br>";
 			storePlaceInfo($placeid,$conn,$GoogAPIKey);
 		}
 		else {
-			echo "place_id already exists";
+			echo "place_id already exists<br>";
 		}
 	
 
@@ -65,7 +66,7 @@ function storeCSVEntry($name,$address,$tag,$ordering,$GoogAPIKey){
 		VALUES ('$name', '$address', '$tag','$ordering', '$placeid') ";
 
 		if (mysqli_query($conn, $sql)) {
-			echo "New record created successfully";
+			echo "New record created successfully<br>";
 		}	
 		 else {
 			echo "Error: " . $sql . "<br>" . mysqli_error($conn);

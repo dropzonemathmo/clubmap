@@ -1,0 +1,155 @@
+
+
+<?php
+
+
+			
+
+$servername = "localhost";
+$username = "nim";
+$password = "bogaboga123";
+$db = "trainmap";
+
+// Create connection
+$conn2 = new mysqli($servername, $username, $password,$db);
+
+// Check connection
+if ($conn2->connect_error) {
+	echo "nonono";
+    die("Connection failed: " . $conn->connect_error);
+}
+
+echo "Connected successfully";
+
+
+
+
+
+
+
+	$stationCodeInp = "2968";
+
+	echo "<h2>Station Code ";
+	echo $stationCodeInp;
+	echo "</h2></br>";
+	
+
+	
+
+
+	//var_dump($stationDataArray);
+
+	
+
+	
+	
+
+	//var_dump($faresDataArray);
+$stationListInp = array();
+
+function printFares($stationCode,&$stationList,$conn){
+
+
+	$clusterData = "data/clusters.json"; 
+	$clusterDataJson = file_get_contents($clusterData,false, stream_context_create($arrContextOptions));
+	$clusterDataArray = json_decode($clusterDataJson,true);
+
+	
+	$stationData = "stationsCluster.json"; 
+	$stationDataJson = file_get_contents($stationData,false, stream_context_create($arrContextOptions));
+	$stationDataArray = json_decode($stationDataJson,true);
+
+
+
+	$arrContextOptions=array(
+		    "ssl"=>array(
+			"verify_peer"=>false,
+			"verify_peer_name"=>false,
+		    ),
+		); 
+
+	$faresData = "data/fares/{$stationCode}.json"; 
+	$faresDataJson = file_get_contents($faresData,false, stream_context_create($arrContextOptions));
+	$faresDataArray = json_decode($faresDataJson,true);
+
+	$clusterCount = count($clusterDataArray[$stationCode]);
+	
+	
+	//for each cluster open the fares file for the cluster
+	for($i = 0 ; $i < $clusterCount ; $i++){
+		$clusterFares = "data/fares/{$clusterDataArray[$stationCode][$i]}.json";	
+		$faresClusterDataJson = file_get_contents($clusterFares,false, stream_context_create($arrContextOptions));
+		$faresClusterDataArray = json_decode($faresClusterDataJson,true);
+	
+		//echo "<h1> cluster code ";
+		//echo $clusterDataArray[$stationCode][$i];
+		//echo "</h1><br>";
+		
+	
+		//var_dump($faresClusterDataArray);
+
+		//echo "entering cluster loop<br>";
+
+		foreach ($faresClusterDataArray as $key =>$value){
+			foreach($stationDataArray[$key] as $newStation){
+				if ((!empty($stationCode) and !empty($newStation) )and !empty($value[0]["prices"]["SDS"][0])){
+				echo " <b> from is </b>";
+				echo $stationCode;
+				echo "<b> to is </b> ";
+				echo $newStation;
+					if(!in_array($newStation, $stationList)){
+						$stationList[] = $newStation;
+					}	
+				echo "<b> price is </b>";
+				$price = $value[0]["prices"]["SDS"][0];
+				echo "<br>";
+
+		$sql = "INSERT INTO journey (departure_station,arrival_station,price) VALUES ($stationCode,$newStation,$price) ";
+
+		if (mysqli_query($conn, $sql)) {
+		    
+		} else {
+		    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+		}
+
+				}
+			}
+		} 
+	}
+
+}
+
+$stationListOut = array();
+
+printFares($stationCodeInp,$stationListInp,$conn2);
+
+foreach($stationListInp as $newStation){
+	printFares($newStation,$stationListOut,$conn2);
+}
+
+/*
+
+	for ($z =0; $z < $types_count; $z++){
+		$type[$z] = $resp["result"]["types"][$z];		
+		echo "<td>";
+		echo $type[$z];
+		echo "</td>";
+	}
+
+	echo "<td>";
+		// Insert data into database
+
+		//end insert into database
+	echo "</td>";
+}
+
+*/
+
+
+	mysqli_close($conn2);
+
+
+?>
+
+
+

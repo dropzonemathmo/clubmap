@@ -3,13 +3,11 @@
 	<title>Radar Search</title>
 </head>
 <body>
-	<h1>Clubmap Google Radar Search</h1>
+	<h1>Clubmap Google Text Search</h1>
 
-<form action="radar_data.php" method="post">
+<form action="text_search_data.php" method="post">
 
-coordinates: <input type="text" name="coordinates"><br>
-radius: <input type="text" name="radius"><br>
-types: <input type="text" name="types"><br>
+text search: <input type="text" name="text_search"><br>
 GoogAPIKey: <input type="text" name="GoogAPIKey"><br>
 
 <input type="submit">

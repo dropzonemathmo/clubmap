@@ -10,9 +10,9 @@
 </head>
 <body>
 
-<div style="padding:30px">
+<div>
 
- <h1><img src="Images/hawtspot_logo.png" height="50"> Data Portal   </h1> 
+ <h2><img src="Images/hawtspot_logo.png" height="50"> Data Portal   </h2> 
 	<a href="csv_import.html" target="main" class="btn btn-primary">csv_import</a>
 	<a href="exportJSON.html" target="main" class="btn btn-primary">exportJSON</a>	
 	<a href="classifyTag.html" target="main" class="btn btn-primary">classifyTag</a>

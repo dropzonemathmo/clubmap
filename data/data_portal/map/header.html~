@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<div style="padding:30px">
+<div>
 	<a href="nightclub.php" target="map_main" class="btn btn-primary">nightclub</a>
 	<a href="bars.php" target="map_main" class="btn btn-primary">bars</a>	
 	<a href="pubs.php" target="map_main" class="btn btn-primary">pubs</a>

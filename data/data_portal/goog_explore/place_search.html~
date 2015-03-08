@@ -3,7 +3,7 @@
 	<title>Nearby Search</title>
 </head>
 <body>
-	<h1>Clubmap Google Nearby Search</h1>
+	<h1>Clubmap Google Place Search</h1>
 
 <form action="place_id.php" method="post">
 

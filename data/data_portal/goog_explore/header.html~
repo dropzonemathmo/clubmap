@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<div style="left-margin:30px">
+<div>
 
 	<a href="place_search.html" target="goog_main" class="btn btn-primary">place search</a>
 	<a href="nearby.html" target="goog_main" class="btn btn-primary">nearby</a>	

@@ -5,7 +5,7 @@
 </head>
 <body>
 <h1> Nearby Data </h1><br>
-<?php include 'db_connect.php';?>
+<?php include '../db_connect.php';?>
 <?php include 'place_info.php';?>
 <?php
 	
@@ -32,10 +32,8 @@ echo $urlofaddress;
 	$resp_json = file_get_contents($urlofaddress,false, stream_context_create($arrContextOptions));
 	$resp = json_decode($resp_json,true);
 
-	echo $resp_json;
-
 	$count = count($resp["results"]);
-	echo "<table border=1><tr><td><b>name</b></td><td><b>place id</b></td>";
+	echo "<table border=1><tr><td><b>place_id</b></td><td><b>name</b></td>";
 
 	for($y = 0; $y < $count; $y++){
 		echo "<tr><td>";

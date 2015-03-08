@@ -41,7 +41,11 @@ function storePlaceInfo($placeid,$conn,$APIKey){
 	$address = str_replace("'", "", $address);
 	
 	//var_dump($total_rating);
-
+	
+	echo "<h1> writing to file </h1>";
+	echo "place_ids/{$placeid}.txt";
+	file_put_contents("place_ids/{$placeid}.txt", $resp_json);
+	echo "<br>";
 	echo $name;
 	echo $geo_coord_lat;
 	echo $geo_coord_long;
@@ -56,7 +60,7 @@ function storePlaceInfo($placeid,$conn,$APIKey){
 		VALUES ('$name', '$placeid', '$geo_coord_lat','$geo_coord_long','$address','$mon_closing_time','$tues_closing_time','$wed_closing_time','$thurs_closing_time','$fri_closing_time','$sat_closing_time','$sun_closing_time','$rating', '$total_rating') ";
 
 		if (mysqli_query($conn, $sql)) {
-		    echo "New record created successfully";
+		    echo "New record created successfully in placeInfo<br>";
 		} else {
 		    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 		}

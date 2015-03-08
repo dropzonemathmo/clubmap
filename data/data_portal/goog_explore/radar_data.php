@@ -10,7 +10,7 @@
 <body>
 
 <h1> Radar Data </h1><br>
-<?php include 'db_connect.php';?>
+<?php include '../db_connect.php';?>
 <?php include 'place_info.php';?>
 
 
@@ -40,7 +40,7 @@
 	$resp = json_decode($resp_json,true);
 
 	$count = count($resp["results"]);
-	echo "<table border=1><tr><td><b>name</b></td><td><b>place id</b></td>";
+	echo "<table border=1><tr><td><b>place id</b></td><td><b>name</b></td>";
 
 	for($y = 0; $y < $count; $y++){
 	
